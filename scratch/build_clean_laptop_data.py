@@ -83,29 +83,40 @@ def clean_weight(w_str):
 
 def clean_model_title(raw_model):
     if not raw_model: return ""
-    # Strip any (...) containing model codes like (X1502), (GU606), (K6604, 2023), (12th Gen)
+    # Strip any (...) containing specific model numbers or chassis codes like (X1404), (GU606), (3604), (K6502)
     cleaned = re.sub(r'\s*\([^)]*\)', '', raw_model).strip()
     return cleaned
 
 def clean_cpu_string(cpu):
     if not cpu: return ""
-    cpu = cpu.replace('Qualcomm Snapdragon', 'Snapdragon').replace('Qualcomm ', 'Snapdragon ')
-    cpu = cpu.replace('iUltra', 'Ultra').replace('Intel Core iUltra', 'Intel Core Ultra')
+    cpu = cpu.replace('iUltra', 'Ultra')
     return cpu.strip()
 
 def clean_gpu_string(gpu):
     if not gpu: return ""
-    gpu = gpu.replace('Qualcomm Snapdragon', 'Snapdragon').replace('Qualcomm ', 'Snapdragon ')
     gpu = gpu.replace('iUltra', 'Ultra')
     return gpu.strip()
 
 def shorten_cpu(cpu):
+    if not cpu: return ""
     cpu = clean_cpu_string(cpu)
+    
+    # Model List Rule: Remove Qualcomm brand name, keep Snapdragon
+    cpu = cpu.replace('Qualcomm Snapdragon', 'Snapdragon').replace('Qualcomm ', 'Snapdragon ')
+    
+    # Model List Rule: iUltra / Intel Core Ultra becomes Ultra only
+    if 'Intel Core Ultra' in cpu:
+        cpu = 'Ultra ' + cpu.split('Intel Core Ultra')[-1].strip()
+    elif 'Intel Core i' in cpu:
+        cpu = 'i' + cpu.split('Intel Core i')[-1].strip()
+    elif 'Intel Core ' in cpu:
+        cpu = 'i' + cpu.split('Intel Core ')[-1].strip()
+    elif 'iUltra' in cpu:
+        cpu = 'Ultra ' + cpu.split('iUltra')[-1].strip()
+    elif 'Ultra' in cpu and not cpu.startswith('Ultra'):
+        cpu = 'Ultra ' + cpu.split('Ultra')[-1].strip()
+
     cpu = cpu.replace('AMD Ryzen ', 'R')
-    if cpu.startswith('Intel Core i'):
-        cpu = 'i' + cpu[len('Intel Core i'):]
-    elif cpu.startswith('Intel Core '):
-        cpu = 'i' + cpu[len('Intel Core '):]
     cpu = re.sub(r'\s+Mobile.*', '', cpu)
     return cpu.strip()
 
@@ -164,24 +175,19 @@ for idx, row in enumerate(rows, 1):
 
     model_id = f"m-{re.sub(r'[^a-z0-9]+', '-', model_name.lower()).strip('-')}"
     
-    m_lower = raw_model.lower()
     series_id = ""
-    if "flow" in m_lower:
+    if "Flow" in raw_model:
         series_id = "s-asus-flow"
-    elif "strix" in m_lower:
+    elif "Strix" in raw_model:
         series_id = "s-asus-strix"
-    elif "zephyrus" in m_lower:
+    elif "Zephyrus" in raw_model:
         series_id = "s-asus-zephyrus"
-    elif "tuf" in m_lower:
+    elif "TUF" in raw_model:
         series_id = "s-asus-tuf"
-    elif "zenbook" in m_lower:
+    elif "Zenbook" in raw_model:
         series_id = "s-asus-zenbook"
-    elif "vivobook" in m_lower:
+    elif "Vivobook" in raw_model:
         series_id = "s-asus-vivobook"
-    elif "expertbook" in m_lower:
-        series_id = "s-asus-expertbook"
-    elif "proart" in m_lower:
-        series_id = "s-asus-proart"
     else:
         series_id = f"s-{brand.lower()}-{re.sub(r'[^a-z0-9]+', '', raw_model.lower())}"
 

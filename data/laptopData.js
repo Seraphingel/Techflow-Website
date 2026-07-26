@@ -230,161 +230,6 @@ const laptopSeriesData = [
                 "cons": []
             },
             {
-                "id": "m-vivobook-pro-16x-3d-oled-2023",
-                "name": "VivoBook Pro 16X 3D OLED (2023)",
-                "weight": "2.00 kg",
-                "cpuRange": "i9 13980HX",
-                "gpuRange": "RTX 4060 8GB \u279e RTX 4070 8GB",
-                "scores": {
-                    "performance": 82,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 67
-                },
-                "configurations": [
-                    {
-                        "name": "Intel Core i9 13980HX + GeForce RTX 4060 Mobile 8GB",
-                        "cpu": "Intel Core i9 13980HX",
-                        "cpuCoresThreads": "24 Cores (8P + 16E) / 32 Threads",
-                        "gpu": "GeForce RTX 4060 Mobile 8GB",
-                        "gpuTgp": "125 W",
-                        "integratedGpu": "Intel UHD Graphics (32EU)",
-                        "maxRamCapacity": "64 GB",
-                        "ramSize": "64GB",
-                        "ramType": "DDR5",
-                        "ramClock": "4800 MHz",
-                        "ramUpgradable": "Yes",
-                        "ramSlots": "2",
-                        "displaySize": "16 inches",
-                        "displayType": "OLED",
-                        "refreshRate": "165 Hz",
-                        "storageSize": "2048GB",
-                        "storageBus": "PCI-E Gen 4.0 (4x)",
-                        "storageType": "PCI-E Gen 4.0 (4x) NVMe",
-                        "storageUpgradable": "Yes",
-                        "storageSlots": "1",
-                        "nvme": "Yes",
-                        "batteryCapacity": "90 Wh",
-                        "usbCharging": "Yes",
-                        "chargePower": "240 W",
-                        "chassisMaterial": "Plastic",
-                        "originalPrice": "\u20b1109,995",
-                        "secondhandPrice": "\u20b149,000"
-                    },
-                    {
-                        "name": "Intel Core i9 13980HX + GeForce RTX 4070 Mobile 8GB",
-                        "cpu": "Intel Core i9 13980HX",
-                        "cpuCoresThreads": "24 Cores (8P + 16E) / 32 Threads",
-                        "gpu": "GeForce RTX 4070 Mobile 8GB",
-                        "gpuTgp": "125 W",
-                        "integratedGpu": "Intel UHD Graphics (32EU)",
-                        "maxRamCapacity": "64 GB",
-                        "ramSize": "64GB",
-                        "ramType": "DDR5",
-                        "ramClock": "4800 MHz",
-                        "ramUpgradable": "Yes",
-                        "ramSlots": "2",
-                        "displaySize": "16 inches",
-                        "displayType": "OLED",
-                        "refreshRate": "165 Hz",
-                        "storageSize": "2048GB",
-                        "storageBus": "PCI-E Gen 4.0 (4x)",
-                        "storageType": "PCI-E Gen 4.0 (4x) NVMe",
-                        "storageUpgradable": "Yes",
-                        "storageSlots": "1",
-                        "nvme": "Yes",
-                        "batteryCapacity": "90 Wh",
-                        "usbCharging": "Yes",
-                        "chargePower": "240 W",
-                        "chassisMaterial": "Plastic",
-                        "originalPrice": "\u20b1124,995",
-                        "secondhandPrice": "\u20b155,000"
-                    }
-                ],
-                "pros": [
-                    "Advanced Thermal System: 3-Fan Cooling for sustained high workloads",
-                    "NVIDIA Optimus & MUX Switch: Directly connects GPU to display for maximum gaming framerates"
-                ],
-                "cons": []
-            },
-            {
-                "id": "m-vivobook-s15-2021",
-                "name": "VivoBook S15 (2021)",
-                "weight": "1.80 kg",
-                "cpuRange": "i5 1135G7 \u279e i7 1165G7",
-                "gpuRange": "MX350 2GB",
-                "scores": {
-                    "performance": 84,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 69
-                },
-                "configurations": [
-                    {
-                        "name": "Intel Core i5 1135G7 + GeForce MX350 2GB",
-                        "cpu": "Intel Core i5 1135G7",
-                        "cpuCoresThreads": "4 Cores / 8 Threads",
-                        "gpu": "GeForce MX350 2GB",
-                        "gpuTgp": "27 W",
-                        "integratedGpu": "Iris Xe Graphics G7 80EU",
-                        "maxRamCapacity": "16 GB",
-                        "ramSize": "16GB",
-                        "ramType": "DDR4",
-                        "ramClock": "3200 MHz",
-                        "ramUpgradable": "Yes",
-                        "ramSlots": "2",
-                        "displaySize": "15.6 inches",
-                        "displayType": "IPS LCD",
-                        "refreshRate": "60 Hz",
-                        "storageSize": "1024GB",
-                        "storageBus": "PCI-E Gen 3.0 (4x)",
-                        "storageType": "PCI-E Gen 3.0 (4x) NVMe",
-                        "storageUpgradable": "Yes",
-                        "storageSlots": "1",
-                        "nvme": "Yes",
-                        "batteryCapacity": "50 Wh",
-                        "usbCharging": "Yes",
-                        "chargePower": "65 W",
-                        "chassisMaterial": "Aluminum",
-                        "originalPrice": "\u20b189,995",
-                        "secondhandPrice": "\u20b121,000"
-                    },
-                    {
-                        "name": "Intel Core i7 1165G7 + GeForce MX350 2GB",
-                        "cpu": "Intel Core i7 1165G7",
-                        "cpuCoresThreads": "4 Cores / 8 Threads",
-                        "gpu": "GeForce MX350 2GB",
-                        "gpuTgp": "27 W",
-                        "integratedGpu": "Iris Xe Graphics G7 80EU",
-                        "maxRamCapacity": "16 GB",
-                        "ramSize": "16GB",
-                        "ramType": "DDR4",
-                        "ramClock": "3200 MHz",
-                        "ramUpgradable": "Yes",
-                        "ramSlots": "2",
-                        "displaySize": "15.6 inches",
-                        "displayType": "IPS LCD",
-                        "refreshRate": "60 Hz",
-                        "storageSize": "1024GB",
-                        "storageBus": "PCI-E Gen 3.0 (4x)",
-                        "storageType": "PCI-E Gen 3.0 (4x) NVMe",
-                        "storageUpgradable": "Yes",
-                        "storageSlots": "1",
-                        "nvme": "Yes",
-                        "batteryCapacity": "50 Wh",
-                        "usbCharging": "Yes",
-                        "chargePower": "65 W",
-                        "chassisMaterial": "Aluminum",
-                        "originalPrice": "\u20b194,995",
-                        "secondhandPrice": "\u20b122,000"
-                    }
-                ],
-                "pros": [
-                    "Advanced Thermal System: 2-Fan Cooling for sustained high workloads"
-                ],
-                "cons": []
-            },
-            {
                 "id": "m-vivobook-14-2023",
                 "name": "Vivobook 14 (2023)",
                 "weight": "1.40 kg",
@@ -729,7 +574,7 @@ const laptopSeriesData = [
                 "id": "m-vivobook-14-2025",
                 "name": "Vivobook 14 (2025)",
                 "weight": "1.46 kg",
-                "cpuRange": "RAI 5 340 \u279e iUltra 5 225H",
+                "cpuRange": "RAI 5 340 \u279e Ultra 5 225H",
                 "gpuRange": "Radeon 840M",
                 "scores": {
                     "performance": 77,
@@ -866,7 +711,7 @@ const laptopSeriesData = [
                 "id": "m-vivobook-14-flip-2025",
                 "name": "Vivobook 14 Flip (2025)",
                 "weight": "1.57 kg",
-                "cpuRange": "iUltra 5 226V \u279e iUltra 7 258V",
+                "cpuRange": "Ultra 5 226V \u279e Ultra 7 258V",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
                     "performance": 79,
@@ -3542,7 +3387,7 @@ const laptopSeriesData = [
                 "id": "m-vivobook-pro-15-2025",
                 "name": "Vivobook Pro 15 (2025)",
                 "weight": "1.80 kg",
-                "cpuRange": "iUltra 7 255H \u279e iUltra 9 285H",
+                "cpuRange": "Ultra 7 255H \u279e Ultra 9 285H",
                 "gpuRange": "RTX 4050 Laptop 6GB",
                 "scores": {
                     "performance": 78,
@@ -4089,7 +3934,7 @@ const laptopSeriesData = [
                 "id": "m-vivobook-pro-15-oled-2024",
                 "name": "Vivobook Pro 15 OLED (2024)",
                 "weight": "1.90 kg",
-                "cpuRange": "iUltra 9 185H",
+                "cpuRange": "Ultra 9 185H",
                 "gpuRange": "RTX 3050 Laptop 6GB \u279e RTX 4060 Laptop 8GB",
                 "scores": {
                     "performance": 83,
@@ -4693,7 +4538,7 @@ const laptopSeriesData = [
                 "id": "m-vivobook-s-14-2024",
                 "name": "Vivobook S 14 (2024)",
                 "weight": "1.30 kg",
-                "cpuRange": "iUltra 5 226V",
+                "cpuRange": "Ultra 5 226V",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
                     "performance": 77,
@@ -4754,8 +4599,8 @@ const laptopSeriesData = [
                 },
                 "configurations": [
                     {
-                        "name": "Snapdragon X (X1-26-100) + Adreno X1-45",
-                        "cpu": "Snapdragon X (X1-26-100)",
+                        "name": "Qualcomm Snapdragon X (X1-26-100) + Adreno X1-45",
+                        "cpu": "Qualcomm Snapdragon X (X1-26-100)",
                         "cpuCoresThreads": "8 Cores / 8 Threads",
                         "gpu": "Adreno X1-45",
                         "gpuTgp": "",
@@ -4805,8 +4650,8 @@ const laptopSeriesData = [
                 },
                 "configurations": [
                     {
-                        "name": "Snapdragon X (X1-26-100) + Adreno X1-45",
-                        "cpu": "Snapdragon X (X1-26-100)",
+                        "name": "Qualcomm Snapdragon X (X1-26-100) + Adreno X1-45",
+                        "cpu": "Qualcomm Snapdragon X (X1-26-100)",
                         "cpuCoresThreads": "8 Cores / 8 Threads",
                         "gpu": "Adreno X1-45",
                         "gpuTgp": "",
@@ -5178,7 +5023,7 @@ const laptopSeriesData = [
                 "id": "m-vivobook-s-14-oled-2024",
                 "name": "Vivobook S 14 OLED (2024)",
                 "weight": "1.30 kg",
-                "cpuRange": "iUltra 9 185H \u279e iUltra 7 258V",
+                "cpuRange": "Ultra 9 185H \u279e Ultra 7 258V",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
                     "performance": 83,
@@ -5413,8 +5258,8 @@ const laptopSeriesData = [
                 },
                 "configurations": [
                     {
-                        "name": "Snapdragon X Plus (X1P-42-100) + Adreno X1-45",
-                        "cpu": "Snapdragon X Plus (X1P-42-100)",
+                        "name": "Qualcomm Snapdragon X Plus (X1P-42-100) + Adreno X1-45",
+                        "cpu": "Qualcomm Snapdragon X Plus (X1P-42-100)",
                         "cpuCoresThreads": "8 Cores / 8 Threads",
                         "gpu": "Adreno X1-45",
                         "gpuTgp": "",
@@ -5442,8 +5287,8 @@ const laptopSeriesData = [
                         "secondhandPrice": "\u20b164,000"
                     },
                     {
-                        "name": "Snapdragon X Plus (X1P-64-100) + Adreno X1-45",
-                        "cpu": "Snapdragon X Plus (X1P-64-100)",
+                        "name": "Qualcomm Snapdragon X Plus (X1P-64-100) + Adreno X1-45",
+                        "cpu": "Qualcomm Snapdragon X Plus (X1P-64-100)",
                         "cpuCoresThreads": "8 Cores / 8 Threads",
                         "gpu": "Adreno X1-45",
                         "gpuTgp": "",
@@ -5471,8 +5316,8 @@ const laptopSeriesData = [
                         "secondhandPrice": "\u20b164,000"
                     },
                     {
-                        "name": "Snapdragon X Elite (X1E-78-100) + Adreno X1-45",
-                        "cpu": "Snapdragon X Elite (X1E-78-100)",
+                        "name": "Qualcomm Snapdragon X Elite (X1E-78-100) + Adreno X1-45",
+                        "cpu": "Qualcomm Snapdragon X Elite (X1E-78-100)",
                         "cpuCoresThreads": "8 Cores / 8 Threads",
                         "gpu": "Adreno X1-45",
                         "gpuTgp": "",
@@ -5619,7 +5464,7 @@ const laptopSeriesData = [
                 "id": "m-vivobook-s-15-oled-2024",
                 "name": "Vivobook S 15 OLED (2024)",
                 "weight": "1.50 kg",
-                "cpuRange": "iUltra 5 125H \u279e RAI 9 HX 370",
+                "cpuRange": "Ultra 5 125H \u279e RAI 9 HX 370",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
                     "performance": 76,
@@ -5940,8 +5785,8 @@ const laptopSeriesData = [
                 },
                 "configurations": [
                     {
-                        "name": "Snapdragon X (X1-26-100) + Adreno X1-45",
-                        "cpu": "Snapdragon X (X1-26-100)",
+                        "name": "Qualcomm Snapdragon X (X1-26-100) + Adreno X1-45",
+                        "cpu": "Qualcomm Snapdragon X (X1-26-100)",
                         "cpuCoresThreads": "8 Cores / 8 Threads",
                         "gpu": "Adreno X1-45",
                         "gpuTgp": "",
@@ -5988,8 +5833,8 @@ const laptopSeriesData = [
                 },
                 "configurations": [
                     {
-                        "name": "Snapdragon X (X1-26-100) + Adreno X1-45",
-                        "cpu": "Snapdragon X (X1-26-100)",
+                        "name": "Qualcomm Snapdragon X (X1-26-100) + Adreno X1-45",
+                        "cpu": "Qualcomm Snapdragon X (X1-26-100)",
                         "cpuCoresThreads": "8 Cores / 8 Threads",
                         "gpu": "Adreno X1-45",
                         "gpuTgp": "",
@@ -6028,7 +5873,7 @@ const laptopSeriesData = [
                 "id": "m-vivobook-s-16-oled-2024",
                 "name": "Vivobook S 16 OLED (2024)",
                 "weight": "1.50 kg",
-                "cpuRange": "iUltra 5 125H \u279e RAI 9 HX 370",
+                "cpuRange": "Ultra 5 125H \u279e RAI 9 HX 370",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
                     "performance": 79,
@@ -6525,7 +6370,7 @@ const laptopSeriesData = [
                 "id": "m-vivobook-s16-2025",
                 "name": "Vivobook S16 (2025)",
                 "weight": "1.67 kg",
-                "cpuRange": "iUltra 5 225H \u279e Snapdragon X (X1-26-100)",
+                "cpuRange": "Ultra 5 225H \u279e Snapdragon X (X1-26-100)",
                 "gpuRange": "Intel Arc 130T",
                 "scores": {
                     "performance": 83,
@@ -6593,8 +6438,8 @@ const laptopSeriesData = [
                         "secondhandPrice": "\u20b190,000"
                     },
                     {
-                        "name": "Snapdragon X (X1-26-100) + Intel Arc 130T",
-                        "cpu": "Snapdragon X (X1-26-100)",
+                        "name": "Qualcomm Snapdragon X (X1-26-100) + Intel Arc 130T",
+                        "cpu": "Qualcomm Snapdragon X (X1-26-100)",
                         "cpuCoresThreads": "14 Cores (4P + 8E) / 14 Threads",
                         "gpu": "Intel Arc 130T",
                         "gpuTgp": "35 W",
@@ -9650,7 +9495,7 @@ const laptopSeriesData = [
                 "id": "m-rog-zephyrus-duo-16-2026",
                 "name": "ROG Zephyrus Duo 16 (2026)",
                 "weight": "2.82 kg",
-                "cpuRange": "iUltra 9 386H",
+                "cpuRange": "Ultra 9 386H",
                 "gpuRange": "RTX 5070 Ti Laptop 12GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
                     "performance": 84,
@@ -11165,7 +11010,7 @@ const laptopSeriesData = [
                 "id": "m-rog-zephyrus-g16-2025",
                 "name": "ROG Zephyrus G16 (2025)",
                 "weight": "1.95 kg",
-                "cpuRange": "i7 14650HX \u279e iUltra 9 285H",
+                "cpuRange": "i7 14650HX \u279e Ultra 9 285H",
                 "gpuRange": "RTX 5060 Laptop 8GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
                     "performance": 77,
@@ -11332,7 +11177,7 @@ const laptopSeriesData = [
                 "id": "m-rog-zephyrus-g16-2026",
                 "name": "ROG Zephyrus G16 (2026)",
                 "weight": "1.85 kg",
-                "cpuRange": "iUltra 9 386H",
+                "cpuRange": "Ultra 9 386H",
                 "gpuRange": "RTX 5060 Laptop 8GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
                     "performance": 78,
@@ -13673,7 +13518,7 @@ const laptopSeriesData = [
                 "id": "m-rog-strix-g16-2026",
                 "name": "ROG Strix G16 (2026)",
                 "weight": "2.65 kg",
-                "cpuRange": "iUltra 9 290HX Plus",
+                "cpuRange": "Ultra 9 290HX Plus",
                 "gpuRange": "RTX 5060 Laptop 8GB \u279e RTX 5080 Laptop 16GB",
                 "scores": {
                     "performance": 81,
@@ -14770,7 +14615,7 @@ const laptopSeriesData = [
                 "id": "m-rog-strix-g18-2025",
                 "name": "ROG Strix G18 (2025)",
                 "weight": "3.42 kg",
-                "cpuRange": "iUltra 9 275HX \u279e R9 9955HX",
+                "cpuRange": "Ultra 9 275HX \u279e R9 9955HX",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
                     "performance": 78,
@@ -14993,7 +14838,7 @@ const laptopSeriesData = [
                 "id": "m-rog-strix-g18-2026",
                 "name": "ROG Strix G18 (2026)",
                 "weight": "3.50 kg",
-                "cpuRange": "iUltra 9 290HX Plus",
+                "cpuRange": "Ultra 9 290HX Plus",
                 "gpuRange": "RTX 5060 Laptop 8GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
                     "performance": 79,
@@ -15314,7 +15159,7 @@ const laptopSeriesData = [
                 "id": "m-rog-strix-scar-16-2025",
                 "name": "ROG Strix SCAR 16 (2025)",
                 "weight": "2.85 kg",
-                "cpuRange": "iUltra 7 255HX \u279e iUltra 9 275HX",
+                "cpuRange": "Ultra 7 255HX \u279e Ultra 9 275HX",
                 "gpuRange": "RTX 5070 Ti Laptop 12GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
                     "performance": 82,
@@ -15577,7 +15422,7 @@ const laptopSeriesData = [
                 "id": "m-rog-strix-scar-18-2025",
                 "name": "ROG Strix SCAR 18 (2025)",
                 "weight": "3.48 kg",
-                "cpuRange": "iUltra 9 275HX",
+                "cpuRange": "Ultra 9 275HX",
                 "gpuRange": "RTX 5080 Laptop 16GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
                     "performance": 75,
@@ -15655,7 +15500,7 @@ const laptopSeriesData = [
                 "id": "m-rog-strix-scar-18-2026",
                 "name": "ROG Strix SCAR 18 (2026)",
                 "weight": "3.70 kg",
-                "cpuRange": "iUltra 9 290HX Plus",
+                "cpuRange": "Ultra 9 290HX Plus",
                 "gpuRange": "RTX 5080 Laptop 16GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
                     "performance": 76,
