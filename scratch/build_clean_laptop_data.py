@@ -80,7 +80,27 @@ def clean_weight(w_str):
     except:
         return w_str
 
+
+def clean_model_title(raw_model):
+    if not raw_model: return ""
+    # Strip any (...) containing model codes like (X1502), (GU606), (K6604, 2023), (12th Gen)
+    cleaned = re.sub(r'\s*\([^)]*\)', '', raw_model).strip()
+    return cleaned
+
+def clean_cpu_string(cpu):
+    if not cpu: return ""
+    cpu = cpu.replace('Qualcomm Snapdragon', 'Snapdragon').replace('Qualcomm ', 'Snapdragon ')
+    cpu = cpu.replace('iUltra', 'Ultra').replace('Intel Core iUltra', 'Intel Core Ultra')
+    return cpu.strip()
+
+def clean_gpu_string(gpu):
+    if not gpu: return ""
+    gpu = gpu.replace('Qualcomm Snapdragon', 'Snapdragon').replace('Qualcomm ', 'Snapdragon ')
+    gpu = gpu.replace('iUltra', 'Ultra')
+    return gpu.strip()
+
 def shorten_cpu(cpu):
+    cpu = clean_cpu_string(cpu)
     cpu = cpu.replace('AMD Ryzen ', 'R')
     if cpu.startswith('Intel Core i'):
         cpu = 'i' + cpu[len('Intel Core i'):]
@@ -90,6 +110,7 @@ def shorten_cpu(cpu):
     return cpu.strip()
 
 def shorten_gpu(gpu):
+    gpu = clean_gpu_string(gpu)
     gpu = gpu.replace('GeForce ', '').replace('Mobile ', '').replace(' Graphics', '')
     gpu = re.sub(r'\s*\(\d+.*?\)', '', gpu)
     return gpu.strip()
@@ -123,36 +144,49 @@ def format_cores_threads(cores, threads):
         return f"{cores_formatted} / {threads_formatted}"
     return cores_formatted or threads_formatted
 
+processed_keys = set()
 for idx, row in enumerate(rows, 1):
-    brand = row.get('Brand', 'ASUS').upper()
-    raw_model = row.get('Model', '')
-    year = row.get('Date Launched', '')
-    
-    if year and f"({year})" not in raw_model:
-        model_name = f"{raw_model} ({year})"
-    else:
-        model_name = raw_model
-        
+    brand = row.get('Brand', 'ASUS').strip()
+    raw_model = row.get('Model', '').strip()
+    year = row.get('Date Launched', '').strip()
+
+    # User Rule: Remove entries without dates/years, and remove duplicates
+    if not year or not raw_model:
+        continue
+
+    clean_base_title = clean_model_title(raw_model)
+    model_name = f"{clean_base_title} ({year})"
+
+    dedup_key = (brand.upper(), clean_base_title.lower(), str(year))
+    if dedup_key in processed_keys:
+        continue
+    processed_keys.add(dedup_key)
+
     model_id = f"m-{re.sub(r'[^a-z0-9]+', '-', model_name.lower()).strip('-')}"
     
+    m_lower = raw_model.lower()
     series_id = ""
-    if "Flow" in raw_model:
+    if "flow" in m_lower:
         series_id = "s-asus-flow"
-    elif "Strix" in raw_model:
+    elif "strix" in m_lower:
         series_id = "s-asus-strix"
-    elif "Zephyrus" in raw_model:
+    elif "zephyrus" in m_lower:
         series_id = "s-asus-zephyrus"
-    elif "TUF" in raw_model:
+    elif "tuf" in m_lower:
         series_id = "s-asus-tuf"
-    elif "Zenbook" in raw_model:
+    elif "zenbook" in m_lower:
         series_id = "s-asus-zenbook"
-    elif "Vivobook" in raw_model:
+    elif "vivobook" in m_lower:
         series_id = "s-asus-vivobook"
+    elif "expertbook" in m_lower:
+        series_id = "s-asus-expertbook"
+    elif "proart" in m_lower:
+        series_id = "s-asus-proart"
     else:
         series_id = f"s-{brand.lower()}-{re.sub(r'[^a-z0-9]+', '', raw_model.lower())}"
 
-    cpus = [c.strip() for c in row.get('CPU name', '').split('\n') if c.strip()]
-    gpus = [g.strip() for g in row.get('GPU Name', '').split('\n') if g.strip()]
+    cpus = [clean_cpu_string(c.strip()) for c in row.get('CPU name', '').split('\n') if c.strip()]
+    gpus = [clean_gpu_string(g.strip()) for g in row.get('GPU Name', '').split('\n') if g.strip()]
     
     cpu_range = build_range(cpus, shorten_cpu)
     gpu_range = build_range(gpus, shorten_gpu)
