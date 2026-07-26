@@ -271,19 +271,19 @@ const app = {
 
                 if (btnAlpha && btnYear) {
                     const alphaIcon = sortDir === 'asc' ? 'fa-arrow-down-a-z' : 'fa-arrow-up-z-a';
-                    const alphaText = sortDir === 'asc' ? 'Alphabetical (A - Z)' : 'Alphabetical (Z - A)';
+                    const alphaText = sortDir === 'asc' ? 'A - Z' : 'Z - A';
                     btnAlpha.innerHTML = `<i class="fa-solid ${alphaIcon}"></i> <span>${alphaText}</span>`;
 
                     const yearIcon = sortDir === 'asc' ? 'fa-calendar-arrow-down' : 'fa-calendar-arrow-up';
-                    const yearText = sortDir === 'asc' ? 'Year Released (Oldest First)' : 'Year Released (Newest First)';
+                    const yearText = sortDir === 'asc' ? 'Year (Oldest)' : 'Year (Newest)';
                     btnYear.innerHTML = `<i class="fa-solid fa-calendar-days"></i> <span>${yearText}</span>`;
 
                     if (sortKey === 'alpha') {
-                        btnAlpha.className = 'px-3 py-1.5 rounded-lg transition-all flex items-center gap-1.5 bg-fluid-accent text-white shadow-sm font-extrabold';
-                        btnYear.className = 'px-3 py-1.5 rounded-lg transition-all flex items-center gap-1.5 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white font-medium';
+                        btnAlpha.className = 'px-3 py-1 rounded-lg transition-all flex items-center gap-1.5 bg-fluid-accent text-white shadow-sm font-extrabold';
+                        btnYear.className = 'px-3 py-1 rounded-lg transition-all flex items-center gap-1.5 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white font-medium';
                     } else {
-                        btnYear.className = 'px-3 py-1.5 rounded-lg transition-all flex items-center gap-1.5 bg-fluid-accent text-white shadow-sm font-extrabold';
-                        btnAlpha.className = 'px-3 py-1.5 rounded-lg transition-all flex items-center gap-1.5 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white font-medium';
+                        btnYear.className = 'px-3 py-1 rounded-lg transition-all flex items-center gap-1.5 bg-fluid-accent text-white shadow-sm font-extrabold';
+                        btnAlpha.className = 'px-3 py-1 rounded-lg transition-all flex items-center gap-1.5 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white font-medium';
                     }
                 }
 
@@ -313,11 +313,11 @@ const app = {
                         if (infoA.year !== infoB.year) {
                             return sortDir === 'asc' ? (infoA.year - infoB.year) : (infoB.year - infoA.year);
                         }
-                        // Secondary: Alphabetical (A-Z) when same year
-                        return infoA.base.localeCompare(infoB.base);
+                        // Secondary: Natural Alphabetical (A-Z) when same year
+                        return infoA.base.localeCompare(infoB.base, undefined, { numeric: true, sensitivity: 'base' });
                     } else {
-                        // Primary: Alphabetical (Ascending A-Z or Descending Z-A)
-                        const nameCompare = infoA.base.localeCompare(infoB.base);
+                        // Primary: Natural Alphabetical (Ascending A-Z or Descending Z-A)
+                        const nameCompare = infoA.base.localeCompare(infoB.base, undefined, { numeric: true, sensitivity: 'base' });
                         if (nameCompare !== 0) {
                             return sortDir === 'asc' ? nameCompare : -nameCompare;
                         }

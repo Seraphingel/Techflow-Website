@@ -5,7 +5,7 @@ from nanoreview_parser import calculate_laptop_prices
 
 base_dir = r'c:\Users\User\Documents\Coding\TechFlow'
 excel_path = r'C:\Users\User\Documents\Coding\TechFlow Data Organizer\nanoreview_master.xlsx'
-html_path = r'c:\Users\User\Documents\Coding\TechFlow\techflow_journal.html'
+html_path = r'c:\Users\User\Documents\Coding\TechFlow\index.html'
 
 # 1. Base Series Definitions
 series_list = [
@@ -155,6 +155,31 @@ def format_cores_threads(cores, threads):
         return f"{cores_formatted} / {threads_formatted}"
     return cores_formatted or threads_formatted
 
+series_keywords = {
+    'asus': [('proart', 's-asus-proart'), ('expertbook', 's-asus-expertbook'), ('zenbook', 's-asus-zenbook'), 
+             ('vivobook', 's-asus-vivobook'), ('zephyrus', 's-asus-zephyrus'), ('flow', 's-asus-flow'), 
+             ('strix', 's-asus-strix'), ('tuf', 's-asus-tuf')],
+    'lenovo': [('legion', 's-lenovo-legion'), ('loq', 's-lenovo-loq'), ('thinkpad', 's-lenovo-thinkpad'), 
+               ('thinkbook', 's-lenovo-thinkbook'), ('ideapad', 's-lenovo-ideapad'), ('yoga', 's-lenovo-yoga'), 
+               ('slim', 's-lenovo-slim')],
+    'msi': [('titan', 's-msi-titan'), ('raider', 's-msi-raider'), ('stealth', 's-msi-stealth'), 
+            ('vector', 's-msi-vector'), ('crosshair', 's-msi-crosshair'), ('katana', 's-msi-katana'), 
+            ('cyborg', 's-msi-cyborg'), ('thin', 's-msi-thin'), ('venturepro', 's-msi-venturepro'), 
+            ('prestige', 's-msi-prestige'), ('commercial', 's-msi-commercial'), ('modern', 's-msi-modern')],
+    'hp': [('omen', 's-hp-omen'), ('victus', 's-hp-victus'), ('zbook', 's-hp-zbook'), 
+           ('elitebook', 's-hp-elitebook'), ('elite', 's-hp-elite'), ('omnibook', 's-hp-omnibook'), 
+           ('probook', 's-hp-probook'), ('pavilion', 's-hp-pavilion')]
+}
+
+def match_series_id(brand, raw_model):
+    b = brand.lower().strip()
+    m = raw_model.lower().replace(' ', '').replace('-', '')
+    if b in series_keywords:
+        for kw, sid in series_keywords[b]:
+            if kw in m:
+                return sid
+    return f"s-{b}-{re.sub(r'[^a-z0-9]+', '', raw_model.lower())}"
+
 processed_keys = set()
 for idx, row in enumerate(rows, 1):
     brand = row.get('Brand', 'ASUS').strip()
@@ -163,6 +188,10 @@ for idx, row in enumerate(rows, 1):
 
     # User Rule: Remove entries without dates/years, and remove duplicates
     if not year or not raw_model:
+        continue
+
+    # Filter out generic model names without specific model numbers (e.g. plain 'LOQ')
+    if raw_model.strip().upper() in ['LOQ', 'LENOVO LOQ', 'LOQ SERIES', 'LEGION', 'VIVOBOOK', 'ZENBOOK']:
         continue
 
     clean_base_title = clean_model_title(raw_model)
@@ -174,22 +203,7 @@ for idx, row in enumerate(rows, 1):
     processed_keys.add(dedup_key)
 
     model_id = f"m-{re.sub(r'[^a-z0-9]+', '-', model_name.lower()).strip('-')}"
-    
-    series_id = ""
-    if "Flow" in raw_model:
-        series_id = "s-asus-flow"
-    elif "Strix" in raw_model:
-        series_id = "s-asus-strix"
-    elif "Zephyrus" in raw_model:
-        series_id = "s-asus-zephyrus"
-    elif "TUF" in raw_model:
-        series_id = "s-asus-tuf"
-    elif "Zenbook" in raw_model:
-        series_id = "s-asus-zenbook"
-    elif "Vivobook" in raw_model:
-        series_id = "s-asus-vivobook"
-    else:
-        series_id = f"s-{brand.lower()}-{re.sub(r'[^a-z0-9]+', '', raw_model.lower())}"
+    series_id = match_series_id(brand, raw_model)
 
     cpus = [clean_cpu_string(c.strip()) for c in row.get('CPU name', '').split('\n') if c.strip()]
     gpus = [clean_gpu_string(g.strip()) for g in row.get('GPU Name', '').split('\n') if g.strip()]
@@ -352,6 +366,13 @@ for idx, row in enumerate(rows, 1):
         series_dict[series_id]['models'].append(model_obj)
     else:
         print(f"Warning: Series ID {series_id} not found in base series list")
+
+def natural_sort_key(s):
+    return [int(text) if text.isdigit() else text.lower() for text in re.split(r'(\d+)', str(s))]
+
+# Sort models within each series naturally (e.g. LOQ 9 before LOQ 10)
+for s in series_list:
+    s['models'].sort(key=lambda m: natural_sort_key(m['name']))
 
 # Count injected models
 total_injected = sum(len(s['models']) for s in series_list)

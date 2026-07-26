@@ -39,7 +39,7 @@ def run_pipeline():
     script_path = os.path.join(BASE_DIR, "scratch", "build_clean_laptop_data.py")
     res = subprocess.run([sys.executable, script_path], capture_output=True, text=True)
     print(res.stdout)
-    print("[2/2] Successfully injected models into techflow_journal.html")
+    print("[2/2] Successfully injected models into index.html")
 
 if __name__ == "__main__":
     run_pipeline()
