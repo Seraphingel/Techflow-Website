@@ -239,6 +239,15 @@ const app = {
                 document.getElementById('modal-series-title').innerText = series.name;
                 document.getElementById('modal-brand-tag').innerText = series.brand;
                 
+                const noticeEl = document.getElementById('modal-discontinued-notice');
+                const noticeTextEl = document.getElementById('modal-discontinued-text');
+                if (series.discontinuedNotice) {
+                    if (noticeTextEl) noticeTextEl.innerText = series.discontinuedNotice;
+                    if (noticeEl) noticeEl.classList.remove('hidden');
+                } else {
+                    if (noticeEl) noticeEl.classList.add('hidden');
+                }
+
                 this.renderPickerModels();
 
                 document.getElementById('model-picker-modal').classList.add('modal-active');
@@ -457,17 +466,16 @@ const app = {
                     const delay = index * 100;
                     html += `
                         <div class="mb-16 animate-fade-up" style="animation-delay: ${delay}ms">
-                            <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-4 pb-2 border-b-2 border-slate-200 dark:border-slate-800 inline-block">
+                            <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-6 pb-2 border-b-2 border-slate-200 dark:border-slate-800 inline-block">
                                 ${section.title} Laptops
                             </h2>
-                            <div class="flex items-center text-xs text-slate-400 mb-6 font-semibold uppercase tracking-wider">
-                                <span>Budget</span>
-                                <div class="flex-grow border-t border-dashed border-slate-300 dark:border-slate-700 mx-4"></div>
-                                <span>High-End</span>
-                            </div>
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                                 ${section.data.map(series => {
-                                    const tierLabel = series.priceTier === 1 ? 'Budget' : (series.priceTier === 2 ? 'Mid-Range' : 'High-End');
+                                    const isDisc = series.discontinued || false;
+                                    const tierLabel = isDisc ? 'Discontinued' : (series.priceTier === 1 ? 'Budget' : (series.priceTier === 2 ? 'Mid-Range' : 'High-End'));
+                                    const badgeClass = isDisc 
+                                        ? 'bg-amber-500/10 dark:bg-amber-500/20 text-amber-600 dark:text-amber-400 border border-amber-500/20' 
+                                        : 'bg-slate-100 dark:bg-slate-800 text-slate-500';
                                     return `
                                     <div onclick="app.openModelPicker('${series.id}')" 
                                          class="kinetic-card group cursor-pointer bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-lg shadow-slate-100 dark:shadow-none flex flex-col justify-between h-52 relative overflow-hidden">
@@ -475,7 +483,7 @@ const app = {
                                         <div class="relative z-10">
                                             <div class="flex justify-between items-start mb-2">
                                                 <span class="text-xs font-bold uppercase text-slate-400">${series.brand}</span>
-                                                <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500">${tierLabel}</span>
+                                                <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full ${badgeClass}">${tierLabel}</span>
                                             </div>
                                             <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-fluid-accent transition-colors">${series.name}</h3>
                                         </div>
@@ -486,7 +494,8 @@ const app = {
                                             </div>
                                         </div>
                                     </div>
-                                `}).join('')}
+                                `;
+                                }).join('')}
                             </div>
                         </div>
                     `;

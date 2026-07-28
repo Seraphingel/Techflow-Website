@@ -5,3 +5,9 @@ __pycache__/
 # Local system files
 .DS_Store
 Thumbs.db
+
+# Agent metadata
+.agents/
+
+# Local build scripts
+scratch/
