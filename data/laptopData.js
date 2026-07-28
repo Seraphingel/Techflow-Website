@@ -33643,14 +33643,6 @@ const laptopSeriesData = [
         ]
     },
     {
-        "id": "s-lenovo-slim",
-        "brand": "Lenovo",
-        "name": "Slim Series",
-        "category": "Productivity",
-        "priceTier": 2,
-        "models": []
-    },
-    {
         "id": "s-lenovo-yoga",
         "brand": "Lenovo",
         "name": "Yoga Series",
