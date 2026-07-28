@@ -14,10 +14,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 226V \u279e Ultra 7 258V",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 64
+                    "performance": 81,
+                    "gaming": 28,
+                    "battery": 75,
+                    "display": 74
                 },
                 "configurations": [
                     {
@@ -123,10 +123,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 100U \u279e R5 7520U",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 60
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 55,
+                    "display": 64
                 },
                 "configurations": [
                     {
@@ -464,10 +464,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 5 340 \u279e Ultra 5 225H",
                 "gpuRange": "Radeon 840M",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 62
+                    "performance": 74,
+                    "gaming": 17,
+                    "battery": 47,
+                    "display": 78
                 },
                 "configurations": [
                     {
@@ -601,10 +601,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12450H \u279e i9 13900H",
                 "gpuRange": "RTX 3050 4GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 62
+                    "performance": 75,
+                    "gaming": 49,
+                    "battery": 53,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -826,10 +826,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 100U \u279e i7 1355U",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 63
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 55,
+                    "display": 66
                 },
                 "configurations": [
                     {
@@ -1106,10 +1106,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1335U \u279e R7 7730U",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 64
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 61,
+                    "display": 66
                 },
                 "configurations": [
                     {
@@ -1299,10 +1299,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1335U \u279e R7 7730U",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 65
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 55,
+                    "display": 69
                 },
                 "configurations": [
                     {
@@ -1492,10 +1492,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5625U \u279e R9 7940HS",
                 "gpuRange": "Radeon RX Vega 7",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 66
+                    "performance": 75,
+                    "gaming": 17,
+                    "battery": 55,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -1685,10 +1685,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1235U \u279e i7 150U",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 64
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 55,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -1907,10 +1907,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R9 5900HX",
                 "gpuRange": "Radeon RX Vega 7",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 64
+                    "performance": 88,
+                    "gaming": 17,
+                    "battery": 53,
+                    "display": 46
                 },
                 "configurations": [
                     {
@@ -2042,10 +2042,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12450H \u279e i9 13900H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 67
+                    "performance": 88,
+                    "gaming": 60,
+                    "battery": 53,
+                    "display": 61
                 },
                 "configurations": [
                     {
@@ -2294,10 +2294,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 100U \u279e i7 150U",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 65
+                    "performance": 48,
+                    "gaming": 17,
+                    "battery": 61,
+                    "display": 49
                 },
                 "configurations": [
                     {
@@ -2400,10 +2400,10 @@ const laptopSeriesData = [
                 "cpuRange": "R3 7320U \u279e i3 N305",
                 "gpuRange": "Radeon 610M",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 68
+                    "performance": 62,
+                    "gaming": 17,
+                    "battery": 55,
+                    "display": 65
                 },
                 "configurations": [
                     {
@@ -2567,10 +2567,10 @@ const laptopSeriesData = [
                 "cpuRange": "Intel Celeron N4500 \u279e Intel Pentium Silver N6000",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 68
+                    "performance": 40,
+                    "gaming": 16,
+                    "battery": 45,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -2647,10 +2647,10 @@ const laptopSeriesData = [
                 "cpuRange": "R3 7320U \u279e Intel Processor N100",
                 "gpuRange": "Radeon 610M",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 69
+                    "performance": 62,
+                    "gaming": 17,
+                    "battery": 55,
+                    "display": 53
                 },
                 "configurations": [
                     {
@@ -2813,10 +2813,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12500H \u279e R9 6900HX",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 65
+                    "performance": 75,
+                    "gaming": 30,
+                    "battery": 67,
+                    "display": 71
                 },
                 "configurations": [
                     {
@@ -2977,10 +2977,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R9 5900HX",
                 "gpuRange": "RTX 3050 4GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 69
+                    "performance": 79,
+                    "gaming": 49,
+                    "battery": 62,
+                    "display": 64
                 },
                 "configurations": [
                     {
@@ -3087,10 +3087,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 11300H \u279e i7 11370H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3050 Ti 4GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 60
+                    "performance": 72,
+                    "gaming": 49,
+                    "battery": 62,
+                    "display": 78
                 },
                 "configurations": [
                     {
@@ -3168,10 +3168,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 7 255H \u279e Ultra 9 285H",
                 "gpuRange": "RTX 4050 Laptop 6GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 65
+                    "performance": 86,
+                    "gaming": 71,
+                    "battery": 71,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -3246,10 +3246,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 12650H \u279e i9 13900H",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 66
+                    "performance": 92,
+                    "gaming": 66,
+                    "battery": 53,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -3440,10 +3440,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800H \u279e R9 7940HS",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 60
+                    "performance": 92,
+                    "gaming": 66,
+                    "battery": 67,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -3635,10 +3635,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 185H",
                 "gpuRange": "RTX 3050 Laptop 6GB \u279e RTX 4060 Laptop 8GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 66
+                    "performance": 86,
+                    "gaming": 57,
+                    "battery": 71,
+                    "display": 60
                 },
                 "configurations": [
                     {
@@ -3742,10 +3742,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 11300H \u279e i7 11370H",
                 "gpuRange": "RTX 3050 4GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 61
+                    "performance": 72,
+                    "gaming": 49,
+                    "battery": 62,
+                    "display": 67
                 },
                 "configurations": [
                     {
@@ -3822,10 +3822,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R9 5900HX",
                 "gpuRange": "RTX 3050 4GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 62
+                    "performance": 79,
+                    "gaming": 48,
+                    "battery": 62,
+                    "display": 52
                 },
                 "configurations": [
                     {
@@ -3960,10 +3960,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 12650H \u279e i9 13900H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 67
+                    "performance": 92,
+                    "gaming": 63,
+                    "battery": 67,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -4154,10 +4154,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 13980HX",
                 "gpuRange": "RTX 4060 8GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 63
+                    "performance": 92,
+                    "gaming": 85,
+                    "battery": 81,
+                    "display": 56
                 },
                 "configurations": [
                     {
@@ -4232,10 +4232,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 11300H \u279e R9 5900HX",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3050 Ti 4GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 63
+                    "performance": 92,
+                    "gaming": 48,
+                    "battery": 85,
+                    "display": 57
                 },
                 "configurations": [
                     {
@@ -4370,10 +4370,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12450H \u279e i9 12900H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 Ti 8GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 68
+                    "performance": 92,
+                    "gaming": 61,
+                    "battery": 81,
+                    "display": 47
                 },
                 "configurations": [
                     {
@@ -4535,10 +4535,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 220 \u279e RAI 7 350",
                 "gpuRange": "Radeon 740M",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 66
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 67,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -4673,10 +4673,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13420H \u279e Snapdragon X (X1-26-100)",
                 "gpuRange": "Intel UHD Xe G4",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 67
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 75,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -4869,10 +4869,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1135G7 \u279e i7 1165G7",
                 "gpuRange": "MX350 2GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 62
+                    "performance": 72,
+                    "gaming": 37,
+                    "battery": 53,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -4946,10 +4946,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12500H \u279e i7 12700H",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 69
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 67,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -5023,10 +5023,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 225H \u279e Snapdragon X (X1-26-100)",
                 "gpuRange": "Intel Arc 130T",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 68
+                    "performance": 72,
+                    "gaming": 34,
+                    "battery": 75,
+                    "display": 65
                 },
                 "configurations": [
                     {
@@ -5131,10 +5131,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 226V",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 67
+                    "performance": 66,
+                    "gaming": 28,
+                    "battery": 78,
+                    "display": 82
                 },
                 "configurations": [
                     {
@@ -5182,10 +5182,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X (X1-26-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 69
+                    "performance": 54,
+                    "gaming": 17,
+                    "battery": 61,
+                    "display": 83
                 },
                 "configurations": [
                     {
@@ -5233,10 +5233,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X (X1-26-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 60
+                    "performance": 48,
+                    "gaming": 17,
+                    "battery": 61,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -5284,10 +5284,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1315U \u279e R7 7730U",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 61
+                    "performance": 75,
+                    "gaming": 17,
+                    "battery": 75,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -5508,10 +5508,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13500H \u279e i9 13900H",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 62
+                    "performance": 75,
+                    "gaming": 30,
+                    "battery": 71,
+                    "display": 75
                 },
                 "configurations": [
                     {
@@ -5616,10 +5616,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 185H \u279e Ultra 7 258V",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 68
+                    "performance": 92,
+                    "gaming": 28,
+                    "battery": 78,
+                    "display": 82
                 },
                 "configurations": [
                     {
@@ -5841,10 +5841,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X Plus (X1P-42-100) \u279e Snapdragon X Elite (X1E-78-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 69
+                    "performance": 65,
+                    "gaming": 21,
+                    "battery": 75,
+                    "display": 74
                 },
                 "configurations": [
                     {
@@ -5949,10 +5949,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13500H \u279e i9 13900H",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 63
+                    "performance": 79,
+                    "gaming": 26,
+                    "battery": 67,
+                    "display": 66
                 },
                 "configurations": [
                     {
@@ -6057,10 +6057,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125H \u279e RAI 9 HX 370",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 60
+                    "performance": 92,
+                    "gaming": 32,
+                    "battery": 71,
+                    "display": 72
                 },
                 "configurations": [
                     {
@@ -6368,10 +6368,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X (X1-26-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 61
+                    "performance": 54,
+                    "gaming": 17,
+                    "battery": 61,
+                    "display": 67
                 },
                 "configurations": [
                     {
@@ -6416,10 +6416,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X (X1-26-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 62
+                    "performance": 52,
+                    "gaming": 17,
+                    "battery": 61,
+                    "display": 65
                 },
                 "configurations": [
                     {
@@ -6466,10 +6466,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1315U \u279e R7 7730U",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 61
+                    "performance": 79,
+                    "gaming": 17,
+                    "battery": 55,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -6688,10 +6688,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125H \u279e RAI 9 HX 370",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 61
+                    "performance": 92,
+                    "gaming": 32,
+                    "battery": 71,
+                    "display": 70
                 },
                 "configurations": [
                     {
@@ -6979,10 +6979,10 @@ const laptopSeriesData = [
                 "cpuRange": "Intel Pentium Gold 7505 \u279e i7 1165G7",
                 "gpuRange": "MX330 2 GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 62
+                    "performance": 81,
+                    "gaming": 36,
+                    "battery": 47,
+                    "display": 65
                 },
                 "configurations": [
                     {
@@ -7112,10 +7112,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 225H \u279e Ultra 7 255H",
                 "gpuRange": "Intel Arc 130T",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 67
+                    "performance": 81,
+                    "gaming": 28,
+                    "battery": 53,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -7191,10 +7191,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 225H \u279e Ultra 7 255H",
                 "gpuRange": "Intel Arc 130T",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 68
+                    "performance": 81,
+                    "gaming": 28,
+                    "battery": 53,
+                    "display": 81
                 },
                 "configurations": [
                     {
@@ -7270,10 +7270,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1335U \u279e Ultra 7 155H",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 63
+                    "performance": 85,
+                    "gaming": 26,
+                    "battery": 70,
+                    "display": 91
                 },
                 "configurations": [
                     {
@@ -7495,10 +7495,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1315U \u279e i7 13700H",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 64
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 55,
+                    "display": 69
                 },
                 "configurations": [
                     {
@@ -7688,10 +7688,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 226V \u279e Ultra 7 258V",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 65
+                    "performance": 81,
+                    "gaming": 33,
+                    "battery": 70,
+                    "display": 83
                 },
                 "configurations": [
                     {
@@ -7797,10 +7797,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 7 155H \u279e Ultra 9 185H",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 66
+                    "performance": 88,
+                    "gaming": 33,
+                    "battery": 71,
+                    "display": 82
                 },
                 "configurations": [
                     {
@@ -7906,10 +7906,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 325 \u279e Ultra X9 388H",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 60
+                    "performance": 85,
+                    "gaming": 22,
+                    "battery": 67,
+                    "display": 91
                 },
                 "configurations": [
                     {
@@ -8053,10 +8053,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5500U \u279e R7 5800U",
                 "gpuRange": "Radeon RX Vega 7",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 63
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 72,
+                    "display": 89
                 },
                 "configurations": [
                     {
@@ -8191,10 +8191,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 386H \u279e RAI 9 465",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 66
+                    "performance": 86,
+                    "gaming": 18,
+                    "battery": 67,
+                    "display": 84
                 },
                 "configurations": [
                     {
@@ -8271,10 +8271,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1340P \u279e i7 1360P",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 68
+                    "performance": 68,
+                    "gaming": 28,
+                    "battery": 71,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -8351,10 +8351,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1240P \u279e i9 13900H",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 62
+                    "performance": 88,
+                    "gaming": 28,
+                    "battery": 71,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -8547,10 +8547,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5625U \u279e R7 7730U",
                 "gpuRange": "Radeon RX Vega 7",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 69
+                    "performance": 68,
+                    "gaming": 19,
+                    "battery": 78,
+                    "display": 81
                 },
                 "configurations": [
                     {
@@ -8685,10 +8685,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125H \u279e Ultra 9 185H",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 66
+                    "performance": 88,
+                    "gaming": 28,
+                    "battery": 71,
+                    "display": 83
                 },
                 "configurations": [
                     {
@@ -8794,10 +8794,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 7 155H",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 67
+                    "performance": 81,
+                    "gaming": 28,
+                    "battery": 71,
+                    "display": 83
                 },
                 "configurations": [
                     {
@@ -8845,10 +8845,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 8840HS \u279e RAI 7 445",
                 "gpuRange": "Radeon 780M",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 62
+                    "performance": 81,
+                    "gaming": 26,
+                    "battery": 71,
+                    "display": 85
                 },
                 "configurations": [
                     {
@@ -9012,10 +9012,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125H \u279e Ultra 9 285H",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 63
+                    "performance": 88,
+                    "gaming": 28,
+                    "battery": 71,
+                    "display": 85
                 },
                 "configurations": [
                     {
@@ -9208,10 +9208,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R9 5900HX",
                 "gpuRange": "Radeon RX Vega 7",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 65
+                    "performance": 79,
+                    "gaming": 17,
+                    "battery": 62,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -9317,10 +9317,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1135G7 \u279e i7 1260P",
                 "gpuRange": "MX450 2GB \u279e MX550 2GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 60
+                    "performance": 72,
+                    "gaming": 38,
+                    "battery": 62,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -9427,9 +9427,9 @@ const laptopSeriesData = [
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
                     "performance": 75,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 60
+                    "gaming": 30,
+                    "battery": 67,
+                    "display": 73
                 },
                 "configurations": [
                     {
@@ -9534,10 +9534,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12500H \u279e i9 12900H",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 63
+                    "performance": 92,
+                    "gaming": 28,
+                    "battery": 62,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -9642,10 +9642,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13500H \u279e i9 13900H",
                 "gpuRange": "RTX 3050 4GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 61
+                    "performance": 88,
+                    "gaming": 49,
+                    "battery": 67,
+                    "display": 73
                 },
                 "configurations": [
                     {
@@ -9751,10 +9751,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7535U \u279e R7 7735U",
                 "gpuRange": "Radeon 660M",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 62
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 72,
+                    "display": 74
                 },
                 "configurations": [
                     {
@@ -9830,10 +9830,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X (X1-26-100) \u279e Snapdragon X2 Elite Extreme (X2E-88-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 64
+                    "performance": 65,
+                    "gaming": 17,
+                    "battery": 59,
+                    "display": 94
                 },
                 "configurations": [
                     {
@@ -9968,10 +9968,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X (X1-26-100) \u279e Snapdragon X2 Elite Extreme (X2E-96-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 67
+                    "performance": 65,
+                    "gaming": 21,
+                    "battery": 75,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -10076,10 +10076,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1135G7 \u279e i7 1165G7",
                 "gpuRange": "MX450 2GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 66
+                    "performance": 85,
+                    "gaming": 35,
+                    "battery": 67,
+                    "display": 74
                 },
                 "configurations": [
                     {
@@ -10156,10 +10156,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125H \u279e Ultra 9 285H",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 68
+                    "performance": 92,
+                    "gaming": 28,
+                    "battery": 71,
+                    "display": 81
                 },
                 "configurations": [
                     {
@@ -10323,10 +10323,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 386H \u279e Ultra X9 388H",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 65
+                    "performance": 92,
+                    "gaming": 24,
+                    "battery": 87,
+                    "display": 72
                 },
                 "configurations": [
                     {
@@ -10403,10 +10403,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1135G7 \u279e i7 1165G7",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 67
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 65,
+                    "display": 84
                 },
                 "configurations": [
                     {
@@ -10483,10 +10483,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1135G7 \u279e i7 1165G7",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 68
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 65,
+                    "display": 87
                 },
                 "configurations": [
                     {
@@ -10563,10 +10563,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12500H \u279e i9 13900H",
                 "gpuRange": "RTX 3050 Ti 4GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 63
+                    "performance": 92,
+                    "gaming": 66,
+                    "battery": 71,
+                    "display": 69
                 },
                 "configurations": [
                     {
@@ -10730,10 +10730,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 13900H",
                 "gpuRange": "RTX 4060 8GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 64
+                    "performance": 92,
+                    "gaming": 78,
+                    "battery": 71,
+                    "display": 72
                 },
                 "configurations": [
                     {
@@ -10808,10 +10808,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12500H \u279e i7 12700H",
                 "gpuRange": "Intel Arc 3 A370M 4GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 64
+                    "performance": 72,
+                    "gaming": 33,
+                    "battery": 85,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -10887,10 +10887,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 5800H \u279e R9 5900HX",
                 "gpuRange": "RTX 3050 Ti 4GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 61
+                    "performance": 92,
+                    "gaming": 48,
+                    "battery": 85,
+                    "display": 42
                 },
                 "configurations": [
                     {
@@ -10967,10 +10967,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 12700H \u279e i9 13905H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 4080 12GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 65
+                    "performance": 95,
+                    "gaming": 88,
+                    "battery": 85,
+                    "display": 44
                 },
                 "configurations": [
                     {
@@ -11163,10 +11163,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800H \u279e R9 6900HX",
                 "gpuRange": "RTX 3050 4GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 66
+                    "performance": 92,
+                    "gaming": 49,
+                    "battery": 71,
+                    "display": 43
                 },
                 "configurations": [
                     {
@@ -11243,10 +11243,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 10870H \u279e i9 12900H",
                 "gpuRange": "RTX 3060 6GB \u279e RTX 3080 8GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 69
+                    "performance": 92,
+                    "gaming": 74,
+                    "battery": 82,
+                    "display": 47
                 },
                 "configurations": [
                     {
@@ -11466,10 +11466,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 6600U \u279e R7 7840U",
                 "gpuRange": "Radeon 660M",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 67
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 72,
+                    "display": 93
                 },
                 "configurations": [
                     {
@@ -11575,10 +11575,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125U \u279e i7 1355U",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 65
+                    "performance": 81,
+                    "gaming": 26,
+                    "battery": 70,
+                    "display": 93
                 },
                 "configurations": [
                     {
@@ -11713,10 +11713,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 226V \u279e Ultra 9 386H",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 69
+                    "performance": 92,
+                    "gaming": 32,
+                    "battery": 76,
+                    "display": 85
                 },
                 "configurations": [
                     {
@@ -11938,10 +11938,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 5 340 \u279e RAI 9 HX 470",
                 "gpuRange": "Radeon 840M",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 60
+                    "performance": 68,
+                    "gaming": 21,
+                    "battery": 73,
+                    "display": 70
                 },
                 "configurations": [
                     {
@@ -12162,10 +12162,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 226V \u279e Ultra 9 288V",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 61
+                    "performance": 95,
+                    "gaming": 32,
+                    "battery": 80,
+                    "display": 70
                 },
                 "configurations": [
                     {
@@ -12308,10 +12308,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 9 365 \u279e RAI Max+ 395",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 6 GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 61
+                    "performance": 68,
+                    "gaming": 70,
+                    "battery": 69,
+                    "display": 82
                 },
                 "configurations": [
                     {
@@ -12476,10 +12476,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X Plus (X1P-42-100) \u279e Snapdragon X Plus (X1P-64-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 62
+                    "performance": 48,
+                    "gaming": 17,
+                    "battery": 75,
+                    "display": 98
                 },
                 "configurations": [
                     {
@@ -12556,10 +12556,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X2 Elite Extreme (X2E-88-100)",
                 "gpuRange": "Adreno X2-90",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 64
+                    "performance": 61,
+                    "gaming": 23,
+                    "battery": 78,
+                    "display": 97
                 },
                 "configurations": [
                     {
@@ -12607,10 +12607,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 9 365 \u279e RAI 9 HX 370",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 63
+                    "performance": 71,
+                    "gaming": 79,
+                    "battery": 81,
+                    "display": 60
                 },
                 "configurations": [
                     {
@@ -12832,10 +12832,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 13980HX",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 60
+                    "performance": 95,
+                    "gaming": 70,
+                    "battery": 81,
+                    "display": 44
                 },
                 "configurations": [
                     {
@@ -12948,10 +12948,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 11300H \u279e i7 11370H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 61
+                    "performance": 85,
+                    "gaming": 62,
+                    "battery": 71,
+                    "display": 57
                 },
                 "configurations": [
                     {
@@ -13084,10 +13084,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12450H \u279e i7 12650H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 66
+                    "performance": 85,
+                    "gaming": 69,
+                    "battery": 71,
+                    "display": 57
                 },
                 "configurations": [
                     {
@@ -13220,10 +13220,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 14650HX",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5070 Laptop 8GB",
                 "scores": {
-                    "performance": 84,
+                    "performance": 85,
                     "gaming": 79,
-                    "display": 85,
-                    "battery": 69
+                    "battery": 62,
+                    "display": 50
                 },
                 "configurations": [
                     {
@@ -13327,10 +13327,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 260 \u279e RAI 9 465",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 5060 Laptop 8GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 65
+                    "performance": 85,
+                    "gaming": 64,
+                    "battery": 69,
+                    "display": 78
                 },
                 "configurations": [
                     {
@@ -13553,10 +13553,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R7 5800H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 62
+                    "performance": 85,
+                    "gaming": 64,
+                    "battery": 81,
+                    "display": 48
                 },
                 "configurations": [
                     {
@@ -13689,10 +13689,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 Ti 8GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 67
+                    "performance": 85,
+                    "gaming": 71,
+                    "battery": 57,
+                    "display": 51
                 },
                 "configurations": [
                     {
@@ -13854,10 +13854,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7535HS \u279e R9 7940HS",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 60
+                    "performance": 92,
+                    "gaming": 80,
+                    "battery": 81,
+                    "display": 51
                 },
                 "configurations": [
                     {
@@ -14019,10 +14019,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 8845HS \u279e R9 8945HS",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 66
+                    "performance": 92,
+                    "gaming": 85,
+                    "battery": 81,
+                    "display": 51
                 },
                 "configurations": [
                     {
@@ -14126,10 +14126,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 260 \u279e R9 9955HX",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 67
+                    "performance": 92,
+                    "gaming": 82,
+                    "battery": 81,
+                    "display": 50
                 },
                 "configurations": [
                     {
@@ -14320,10 +14320,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 7735HS \u279e R9 7940HS",
                 "gpuRange": "Radeon RX 7600S 8GB \u279e Radeon RX 7700S 8GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 61
+                    "performance": 92,
+                    "gaming": 41,
+                    "battery": 81,
+                    "display": 50
                 },
                 "configurations": [
                     {
@@ -14398,10 +14398,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R7 5800H",
                 "gpuRange": "RTX 3060 6GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 63
+                    "performance": 85,
+                    "gaming": 65,
+                    "battery": 81,
+                    "display": 34
                 },
                 "configurations": [
                     {
@@ -14476,10 +14476,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 Ti 8GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 68
+                    "performance": 85,
+                    "gaming": 71,
+                    "battery": 57,
+                    "display": 34
                 },
                 "configurations": [
                     {
@@ -14641,10 +14641,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 7735HS \u279e R9 7940HS",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 62
+                    "performance": 92,
+                    "gaming": 85,
+                    "battery": 81,
+                    "display": 34
                 },
                 "configurations": [
                     {
@@ -14748,10 +14748,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 260",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5070 Laptop 8GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 68
+                    "performance": 85,
+                    "gaming": 82,
+                    "battery": 81,
+                    "display": 32
                 },
                 "configurations": [
                     {
@@ -14855,10 +14855,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 11260H \u279e i9 11900H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 64
+                    "performance": 92,
+                    "gaming": 64,
+                    "battery": 52,
+                    "display": 48
                 },
                 "configurations": [
                     {
@@ -15020,10 +15020,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 12700H \u279e i9 13900H",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 63
+                    "performance": 92,
+                    "gaming": 85,
+                    "battery": 81,
+                    "display": 51
                 },
                 "configurations": [
                     {
@@ -15185,10 +15185,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 11260H \u279e i9 11900H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3060 6GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 65
+                    "performance": 92,
+                    "gaming": 64,
+                    "battery": 52,
+                    "display": 34
                 },
                 "configurations": [
                     {
@@ -15350,10 +15350,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12500H \u279e i7 12700H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 69
+                    "performance": 85,
+                    "gaming": 71,
+                    "battery": 57,
+                    "display": 19
                 },
                 "configurations": [
                     {
@@ -15486,10 +15486,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 12700H \u279e i9 13900H",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 64
+                    "performance": 92,
+                    "gaming": 85,
+                    "battery": 81,
+                    "display": 34
                 },
                 "configurations": [
                     {
@@ -15660,10 +15660,10 @@ const laptopSeriesData = [
                 "cpuRange": "R9 6900HX",
                 "gpuRange": "RTX 3060 6GB \u279e RTX 3080 Ti 16GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 61
+                    "performance": 95,
+                    "gaming": 91,
+                    "battery": 81,
+                    "display": 41
                 },
                 "configurations": [
                     {
@@ -15796,10 +15796,10 @@ const laptopSeriesData = [
                 "cpuRange": "R9 7945HX",
                 "gpuRange": "RTX 4060 8GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 65
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 36
                 },
                 "configurations": [
                     {
@@ -15932,10 +15932,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 386H",
                 "gpuRange": "RTX 5070 Ti Laptop 12GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 64
+                    "performance": 95,
+                    "gaming": 79,
+                    "battery": 81,
+                    "display": 31
                 },
                 "configurations": [
                     {
@@ -16041,10 +16041,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 5800HS \u279e R9 5900HS",
                 "gpuRange": "GTX 1650 4GB \u279e RTX 3060 6GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 68
+                    "performance": 92,
+                    "gaming": 61,
+                    "battery": 71,
+                    "display": 73
                 },
                 "configurations": [
                     {
@@ -16208,10 +16208,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800H \u279e R9 6900HS",
                 "gpuRange": "Radeon RX 6700S 8GB \u279e Radeon RX 6800S 8GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 62
+                    "performance": 98,
+                    "gaming": 42,
+                    "battery": 71,
+                    "display": 72
                 },
                 "configurations": [
                     {
@@ -16317,10 +16317,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 7735HS \u279e R9 7940HS",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 66
+                    "performance": 98,
+                    "gaming": 89,
+                    "battery": 71,
+                    "display": 72
                 },
                 "configurations": [
                     {
@@ -16513,10 +16513,10 @@ const laptopSeriesData = [
                 "cpuRange": "R9 8945HS",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 69
+                    "performance": 98,
+                    "gaming": 78,
+                    "battery": 69,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -16623,10 +16623,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 9 HX 370 \u279e R9 270",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5080 Laptop 16GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 62
+                    "performance": 95,
+                    "gaming": 87,
+                    "battery": 69,
+                    "display": 74
                 },
                 "configurations": [
                     {
@@ -16791,10 +16791,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 9 465",
                 "gpuRange": "RTX 5060 Laptop 8GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 65
+                    "performance": 68,
+                    "gaming": 69,
+                    "battery": 69,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -16843,10 +16843,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 5800HS \u279e R9 5900HS",
                 "gpuRange": "RTX 3050 Ti 4GB \u279e RTX 3080 8GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 69
+                    "performance": 95,
+                    "gaming": 76,
+                    "battery": 81,
+                    "display": 60
                 },
                 "configurations": [
                     {
@@ -16979,10 +16979,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800HS \u279e R9 6900HS",
                 "gpuRange": "RTX 3060 6GB \u279e RTX 3080 Ti 16GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 63
+                    "performance": 95,
+                    "gaming": 84,
+                    "battery": 81,
+                    "display": 60
                 },
                 "configurations": [
                     {
@@ -17115,10 +17115,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 12700H \u279e i9 13900H",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 67
+                    "performance": 95,
+                    "gaming": 84,
+                    "battery": 81,
+                    "display": 56
                 },
                 "configurations": [
                     {
@@ -17251,10 +17251,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 7 350 \u279e RAI 9 HX 370",
                 "gpuRange": "RTX 4060 8GB \u279e RTX 5070 Laptop 12GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 60
+                    "performance": 71,
+                    "gaming": 87,
+                    "battery": 81,
+                    "display": 60
                 },
                 "configurations": [
                     {
@@ -17447,10 +17447,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 14650HX \u279e Ultra 9 285H",
                 "gpuRange": "RTX 5060 Laptop 8GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 63
+                    "performance": 98,
+                    "gaming": 97,
+                    "battery": 81,
+                    "display": 57
                 },
                 "configurations": [
                     {
@@ -17614,10 +17614,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 386H",
                 "gpuRange": "RTX 5060 Laptop 8GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 67
+                    "performance": 95,
+                    "gaming": 97,
+                    "battery": 81,
+                    "display": 60
                 },
                 "configurations": [
                     {
@@ -17781,10 +17781,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 11800H \u279e i9 11900H",
                 "gpuRange": "RTX 3050 Ti 4GB \u279e RTX 3070 Ti 8GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 60
+                    "performance": 95,
+                    "gaming": 67,
+                    "battery": 81,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -17917,10 +17917,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 12700H \u279e i9 12900H",
                 "gpuRange": "RTX 3050 Ti 4GB \u279e RTX 3080 Ti 16GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 64
+                    "performance": 95,
+                    "gaming": 82,
+                    "battery": 81,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -18053,10 +18053,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 13900H",
                 "gpuRange": "RTX 4070 8GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 68
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 47
                 },
                 "configurations": [
                     {
@@ -18169,10 +18169,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 5800HS \u279e R9 5900HS",
                 "gpuRange": "GTX 1650 4GB \u279e RTX 3050 Ti 4GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 61
+                    "performance": 95,
+                    "gaming": 51,
+                    "battery": 61,
+                    "display": 84
                 },
                 "configurations": [
                     {
@@ -18279,10 +18279,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800HS \u279e R9 6900HS",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3050 Ti 4GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 62
+                    "performance": 98,
+                    "gaming": 52,
+                    "battery": 61,
+                    "display": 84
                 },
                 "configurations": [
                     {
@@ -18360,10 +18360,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 7735HS \u279e R9 7940HS",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 65
+                    "performance": 98,
+                    "gaming": 75,
+                    "battery": 71,
+                    "display": 84
                 },
                 "configurations": [
                     {
@@ -18470,10 +18470,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800HS \u279e R9 6900HS",
                 "gpuRange": "RTX 3050 Ti 4GB \u279e RTX 3070 Ti 8GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 63
+                    "performance": 95,
+                    "gaming": 76,
+                    "battery": 81,
+                    "display": 56
                 },
                 "configurations": [
                     {
@@ -18577,10 +18577,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 13900H",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 66
+                    "performance": 95,
+                    "gaming": 87,
+                    "battery": 81,
+                    "display": 50
                 },
                 "configurations": [
                     {
@@ -18684,10 +18684,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12500H \u279e i9 12900H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3050 Ti 4GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 64
+                    "performance": 85,
+                    "gaming": 52,
+                    "battery": 57,
+                    "display": 88
                 },
                 "configurations": [
                     {
@@ -18794,10 +18794,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 13700H \u279e i9 13900H",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 67
+                    "performance": 85,
+                    "gaming": 69,
+                    "battery": 57,
+                    "display": 88
                 },
                 "configurations": [
                     {
@@ -18875,10 +18875,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI Max 390 \u279e RAI Max+ Pro 395",
                 "gpuRange": "Radeon 8050S",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 68
+                    "performance": 71,
+                    "gaming": 28,
+                    "battery": 67,
+                    "display": 87
                 },
                 "configurations": [
                     {
@@ -18984,10 +18984,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI Max+ 395",
                 "gpuRange": "Radeon 8060S",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 69
+                    "performance": 71,
+                    "gaming": 28,
+                    "battery": 67,
+                    "display": 72
                 },
                 "configurations": [
                     {
@@ -19044,10 +19044,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 4800H \u279e R9 5980HX",
                 "gpuRange": "GTX 1650 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 65
+                    "performance": 95,
+                    "gaming": 68,
+                    "battery": 57,
+                    "display": 54
                 },
                 "configurations": [
                     {
@@ -19238,10 +19238,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800H \u279e R9 6900HX",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3080 Ti 16GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 69
+                    "performance": 95,
+                    "gaming": 80,
+                    "battery": 57,
+                    "display": 48
                 },
                 "configurations": [
                     {
@@ -19432,10 +19432,10 @@ const laptopSeriesData = [
                 "cpuRange": "R9 5900HX",
                 "gpuRange": "Radeon RX 6800M 12GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 66
+                    "performance": 98,
+                    "gaming": 39,
+                    "battery": 81,
+                    "display": 45
                 },
                 "configurations": [
                     {
@@ -19480,10 +19480,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13450HX \u279e i9 13980HX",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4080 12GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 64
+                    "performance": 95,
+                    "gaming": 90,
+                    "battery": 63,
+                    "display": 41
                 },
                 "configurations": [
                     {
@@ -19674,10 +19674,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 14900HX \u279e R9 9955HX3D",
                 "gpuRange": "RTX 4060 8GB \u279e RTX 5070 Ti Laptop 12GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 60
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 41
                 },
                 "configurations": [
                     {
@@ -19926,10 +19926,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13450HX \u279e R9 9955HX3D",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5080 Laptop 16GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 64
+                    "performance": 95,
+                    "gaming": 93,
+                    "battery": 81,
+                    "display": 34
                 },
                 "configurations": [
                     {
@@ -20207,10 +20207,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 290HX Plus",
                 "gpuRange": "RTX 5060 Laptop 8GB \u279e RTX 5080 Laptop 16GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 68
+                    "performance": 95,
+                    "gaming": 97,
+                    "battery": 81,
+                    "display": 36
                 },
                 "configurations": [
                     {
@@ -20314,10 +20314,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 4800H \u279e R9 5900HX",
                 "gpuRange": "GTX 1650 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 67
+                    "performance": 95,
+                    "gaming": 68,
+                    "battery": 57,
+                    "display": 40
                 },
                 "configurations": [
                     {
@@ -20508,10 +20508,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800H \u279e R9 6900HX",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3080 Ti 16GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 60
+                    "performance": 95,
+                    "gaming": 80,
+                    "battery": 81,
+                    "display": 28
                 },
                 "configurations": [
                     {
@@ -20673,10 +20673,10 @@ const laptopSeriesData = [
                 "cpuRange": "R9 7845HX \u279e R9 7945HX",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 65
+                    "performance": 95,
+                    "gaming": 85,
+                    "battery": 81,
+                    "display": 28
                 },
                 "configurations": [
                     {
@@ -20780,10 +20780,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 13700HX \u279e i9 13980HX",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4080 12GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 66
+                    "performance": 95,
+                    "gaming": 90,
+                    "battery": 63,
+                    "display": 20
                 },
                 "configurations": [
                     {
@@ -20945,10 +20945,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 14900HX",
                 "gpuRange": "RTX 4060 8GB \u279e RTX 4080 12GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 61
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 20
                 },
                 "configurations": [
                     {
@@ -21052,10 +21052,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 275HX \u279e R9 9955HX",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 65
+                    "performance": 98,
+                    "gaming": 87,
+                    "battery": 81,
+                    "display": 20
                 },
                 "configurations": [
                     {
@@ -21275,10 +21275,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 290HX Plus",
                 "gpuRange": "RTX 5060 Laptop 8GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 69
+                    "performance": 98,
+                    "gaming": 97,
+                    "battery": 81,
+                    "display": 20
                 },
                 "configurations": [
                     {
@@ -21440,10 +21440,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 5800H \u279e R9 5900HX",
                 "gpuRange": "RTX 3060 6GB \u279e RTX 3080 16GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 68
+                    "performance": 95,
+                    "gaming": 90,
+                    "battery": 81,
+                    "display": 48
                 },
                 "configurations": [
                     {
@@ -21576,10 +21576,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 12700H \u279e i9 12900H",
                 "gpuRange": "RTX 3060 6GB \u279e RTX 3080 Ti 16GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 61
+                    "performance": 92,
+                    "gaming": 91,
+                    "battery": 81,
+                    "display": 45
                 },
                 "configurations": [
                     {
@@ -21712,10 +21712,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 13980HX",
                 "gpuRange": "RTX 4080 12GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 67
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 41
                 },
                 "configurations": [
                     {
@@ -21790,10 +21790,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 14900HX",
                 "gpuRange": "RTX 4080 12GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 62
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 36
                 },
                 "configurations": [
                     {
@@ -21868,10 +21868,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 7 255HX \u279e Ultra 9 275HX",
                 "gpuRange": "RTX 5070 Ti Laptop 12GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 66
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 30
                 },
                 "configurations": [
                     {
@@ -21975,10 +21975,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 12700H \u279e i9 12900H",
                 "gpuRange": "RTX 3060 6GB \u279e RTX 3080 Ti 16GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 62
+                    "performance": 98,
+                    "gaming": 91,
+                    "battery": 81,
+                    "display": 25
                 },
                 "configurations": [
                     {
@@ -22111,10 +22111,10 @@ const laptopSeriesData = [
                 "cpuRange": "R9 7945HX \u279e R9 7945HX3D",
                 "gpuRange": "RTX 4080 12GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 68
+                    "performance": 98,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 22
                 },
                 "configurations": [
                     {
@@ -22189,10 +22189,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 12900H \u279e i9 12950HX",
                 "gpuRange": "RTX 3070 Ti 8GB \u279e RTX 3080 Ti 16GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 63
+                    "performance": 98,
+                    "gaming": 91,
+                    "battery": 81,
+                    "display": 22
                 },
                 "configurations": [
                     {
@@ -22267,10 +22267,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 13980HX",
                 "gpuRange": "RTX 4080 12GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 69
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 20
                 },
                 "configurations": [
                     {
@@ -22345,10 +22345,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 14900HX",
                 "gpuRange": "RTX 4080 12GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 63
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 20
                 },
                 "configurations": [
                     {
@@ -22423,10 +22423,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 275HX",
                 "gpuRange": "RTX 5080 Laptop 16GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 67
+                    "performance": 98,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 20
                 },
                 "configurations": [
                     {
@@ -22501,10 +22501,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 290HX Plus",
                 "gpuRange": "RTX 5080 Laptop 16GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 60
+                    "performance": 98,
+                    "gaming": 100,
+                    "battery": 81,
+                    "display": 20
                 },
                 "configurations": [
                     {
@@ -22589,10 +22589,10 @@ const laptopSeriesData = [
                 "cpuRange": "Intel Pentium Silver N6000",
                 "gpuRange": "Intel UHD Gen 11",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 68
+                    "performance": 34,
+                    "gaming": 16,
+                    "battery": 40,
+                    "display": 64
                 },
                 "configurations": [
                     {
@@ -22640,10 +22640,10 @@ const laptopSeriesData = [
                 "cpuRange": "R3 5300U \u279e R7 5700U",
                 "gpuRange": "Radeon RX Vega 6",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 69
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 52,
+                    "display": 51
                 },
                 "configurations": [
                     {
@@ -22746,10 +22746,10 @@ const laptopSeriesData = [
                 "cpuRange": "Intel Pentium Gold 7505 \u279e i7 1255U",
                 "gpuRange": "MX350 2GB \u279e MX450 2GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 60
+                    "performance": 72,
+                    "gaming": 35,
+                    "battery": 52,
+                    "display": 68
                 },
                 "configurations": [
                     {
@@ -22997,10 +22997,10 @@ const laptopSeriesData = [
                 "cpuRange": "Intel Pentium Gold 7505 \u279e i7 1165G7",
                 "gpuRange": "MX450 2GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 61
+                    "performance": 68,
+                    "gaming": 35,
+                    "battery": 45,
+                    "display": 61
                 },
                 "configurations": [
                     {
@@ -23163,10 +23163,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 5 340 \u279e RAI 7 350",
                 "gpuRange": "Radeon 840M",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 66
+                    "performance": 54,
+                    "gaming": 17,
+                    "battery": 58,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -23243,10 +23243,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 5 340 \u279e RAI 7 350",
                 "gpuRange": "Radeon 840M",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 67
+                    "performance": 54,
+                    "gaming": 17,
+                    "battery": 58,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -23322,10 +23322,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 322 \u279e Ultra 7 355",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 65
+                    "performance": 81,
+                    "gaming": 18,
+                    "battery": 60,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -23430,10 +23430,10 @@ const laptopSeriesData = [
                 "cpuRange": "R3 5300U \u279e R7 5700U",
                 "gpuRange": "Radeon RX Vega 6",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 62
+                    "performance": 60,
+                    "gaming": 17,
+                    "battery": 57,
+                    "display": 66
                 },
                 "configurations": [
                     {
@@ -23538,10 +23538,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R9 5900HX",
                 "gpuRange": "GTX 1650 4GB \u279e RTX 3050 4GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 63
+                    "performance": 92,
+                    "gaming": 50,
+                    "battery": 71,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -23647,10 +23647,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600U \u279e R7 5800U",
                 "gpuRange": "MX450 2GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 64
+                    "performance": 68,
+                    "gaming": 35,
+                    "battery": 65,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -23727,10 +23727,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800HS",
                 "gpuRange": "GTX 1650 Ti 4GB \u279e RTX 3050 Ti 4GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 61
+                    "performance": 72,
+                    "gaming": 51,
+                    "battery": 71,
+                    "display": 57
                 },
                 "configurations": [
                     {
@@ -23864,10 +23864,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 100U \u279e R7 8845HS",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 64
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 65,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -24031,10 +24031,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 120U \u279e R7 8845HS",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 65
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 65,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -24168,10 +24168,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 225U \u279e Ultra 7 255H",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 68
+                    "performance": 75,
+                    "gaming": 26,
+                    "battery": 65,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -24306,10 +24306,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 225U \u279e Ultra 7 255H",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 69
+                    "performance": 81,
+                    "gaming": 26,
+                    "battery": 65,
+                    "display": 56
                 },
                 "configurations": [
                     {
@@ -24443,10 +24443,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1215U \u279e i7 1260P",
                 "gpuRange": "MX550 2GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 62
+                    "performance": 75,
+                    "gaming": 35,
+                    "battery": 57,
+                    "display": 64
                 },
                 "configurations": [
                     {
@@ -24609,10 +24609,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X Plus (X1P-42-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 66
+                    "performance": 54,
+                    "gaming": 17,
+                    "battery": 65,
+                    "display": 77
                 },
                 "configurations": [
                     {
@@ -24660,10 +24660,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X2 Plus (X2P-42-100)",
                 "gpuRange": "Adreno X2-45",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 66
+                    "performance": 61,
+                    "gaming": 17,
+                    "battery": 68,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -24711,10 +24711,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 4700U \u279e R7 5700U",
                 "gpuRange": "Radeon RX Vega 7",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 65
+                    "performance": 60,
+                    "gaming": 17,
+                    "battery": 62,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -24849,10 +24849,10 @@ const laptopSeriesData = [
                 "cpuRange": "Intel Pentium Gold 7505 \u279e i7 1165G7",
                 "gpuRange": "MX450 2GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 66
+                    "performance": 60,
+                    "gaming": 35,
+                    "battery": 55,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -24987,10 +24987,10 @@ const laptopSeriesData = [
                 "cpuRange": "R3 7330U \u279e R7 7730U",
                 "gpuRange": "Radeon RX Vega 6",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 63
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 62,
+                    "display": 75
                 },
                 "configurations": [
                     {
@@ -25096,10 +25096,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1335U \u279e R7 7730U",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 64
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 62,
+                    "display": 53
                 },
                 "configurations": [
                     {
@@ -25233,10 +25233,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1005G1 \u279e i7 1165G7",
                 "gpuRange": "MX450 2GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 67
+                    "performance": 68,
+                    "gaming": 35,
+                    "battery": 55,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -25366,10 +25366,10 @@ const laptopSeriesData = [
                 "cpuRange": "Intel Processor U300 \u279e i7 1355U",
                 "gpuRange": "Intel UHD Xe G4",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 60
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 62,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -25504,10 +25504,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 225H \u279e RAI 9 365",
                 "gpuRange": "Intel Arc 130T",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 60
+                    "performance": 88,
+                    "gaming": 32,
+                    "battery": 77,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -25700,10 +25700,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 5 340 \u279e RAI 7 350",
                 "gpuRange": "RTX 5050 Laptop 8GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 61
+                    "performance": 65,
+                    "gaming": 61,
+                    "battery": 77,
+                    "display": 64
                 },
                 "configurations": [
                     {
@@ -25779,10 +25779,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7535HS \u279e R7 7840HS",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4050 6GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 61
+                    "performance": 85,
+                    "gaming": 68,
+                    "battery": 71,
+                    "display": 57
                 },
                 "configurations": [
                     {
@@ -25916,10 +25916,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125H \u279e R7 8845HS",
                 "gpuRange": "RTX 3050 6GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 62
+                    "performance": 88,
+                    "gaming": 44,
+                    "battery": 77,
+                    "display": 78
                 },
                 "configurations": [
                     {
@@ -26112,10 +26112,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125H \u279e R7 8845HS",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4050 6GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 63
+                    "performance": 92,
+                    "gaming": 68,
+                    "battery": 77,
+                    "display": 58
                 },
                 "configurations": [
                     {
@@ -26307,10 +26307,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 7 450 \u279e RAI 9 465",
                 "gpuRange": "Radeon 860M",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 67
+                    "performance": 65,
+                    "gaming": 21,
+                    "battery": 83,
+                    "display": 78
                 },
                 "configurations": [
                     {
@@ -26387,10 +26387,10 @@ const laptopSeriesData = [
                 "cpuRange": "Intel Processor N150 \u279e R7 7735HS",
                 "gpuRange": "Intel UHD 730",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 62
+                    "performance": 75,
+                    "gaming": 17,
+                    "battery": 51,
+                    "display": 83
                 },
                 "configurations": [
                     {
@@ -26670,10 +26670,10 @@ const laptopSeriesData = [
                 "cpuRange": "Intel Processor N100 \u279e i7 13620H",
                 "gpuRange": "Intel UHD Gen 11",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 67
+                    "performance": 68,
+                    "gaming": 16,
+                    "battery": 58,
+                    "display": 82
                 },
                 "configurations": [
                     {
@@ -26982,10 +26982,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 100U \u279e i7 150U",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 67
+                    "performance": 48,
+                    "gaming": 17,
+                    "battery": 58,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -27091,10 +27091,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 100U \u279e i7 150U",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 68
+                    "performance": 48,
+                    "gaming": 17,
+                    "battery": 58,
+                    "display": 68
                 },
                 "configurations": [
                     {
@@ -27199,10 +27199,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 320 \u279e RAI 7 350",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 68
+                    "performance": 75,
+                    "gaming": 18,
+                    "battery": 53,
+                    "display": 73
                 },
                 "configurations": [
                     {
@@ -27334,10 +27334,10 @@ const laptopSeriesData = [
                 "cpuRange": "Intel Processor N100 \u279e i7 1355U",
                 "gpuRange": "Intel UHD Gen 11",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 68
+                    "performance": 68,
+                    "gaming": 16,
+                    "battery": 58,
+                    "display": 69
                 },
                 "configurations": [
                     {
@@ -27587,10 +27587,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 100U \u279e i7 150U",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 69
+                    "performance": 48,
+                    "gaming": 17,
+                    "battery": 58,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -27695,10 +27695,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 322 \u279e Ultra 7 355",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 69
+                    "performance": 75,
+                    "gaming": 18,
+                    "battery": 53,
+                    "display": 68
                 },
                 "configurations": [
                     {
@@ -27772,10 +27772,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 100U \u279e i7 240H",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 63
+                    "performance": 75,
+                    "gaming": 17,
+                    "battery": 61,
+                    "display": 73
                 },
                 "configurations": [
                     {
@@ -27936,10 +27936,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X (X1-26-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 64
+                    "performance": 54,
+                    "gaming": 17,
+                    "battery": 61,
+                    "display": 72
                 },
                 "configurations": [
                     {
@@ -27986,10 +27986,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125H \u279e R7 8845HS",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 60
+                    "performance": 85,
+                    "gaming": 28,
+                    "battery": 51,
+                    "display": 78
                 },
                 "configurations": [
                     {
@@ -28124,10 +28124,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7535HS \u279e R7 7735HS",
                 "gpuRange": "Radeon 660M",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 61
+                    "performance": 85,
+                    "gaming": 17,
+                    "battery": 56,
+                    "display": 73
                 },
                 "configurations": [
                     {
@@ -28203,10 +28203,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 120U \u279e R7 8845HS",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 62
+                    "performance": 85,
+                    "gaming": 26,
+                    "battery": 58,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -28398,10 +28398,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13420H \u279e RAI 7 350",
                 "gpuRange": "Intel UHD Xe G4",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 63
+                    "performance": 85,
+                    "gaming": 17,
+                    "battery": 53,
+                    "display": 66
                 },
                 "configurations": [
                     {
@@ -28649,10 +28649,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1135G7",
                 "gpuRange": "MX450 2GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 60
+                    "performance": 62,
+                    "gaming": 35,
+                    "battery": 58,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -28700,10 +28700,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 322 \u279e Ultra 7 356H",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 60
+                    "performance": 81,
+                    "gaming": 18,
+                    "battery": 53,
+                    "display": 81
                 },
                 "configurations": [
                     {
@@ -28837,10 +28837,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 320",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 61
+                    "performance": 61,
+                    "gaming": 22,
+                    "battery": 56,
+                    "display": 75
                 },
                 "configurations": [
                     {
@@ -28887,10 +28887,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 322 \u279e Ultra 7 356H",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 62
+                    "performance": 85,
+                    "gaming": 18,
+                    "battery": 53,
+                    "display": 66
                 },
                 "configurations": [
                     {
@@ -29022,10 +29022,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1335U \u279e i7 13700H",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 69
+                    "performance": 72,
+                    "gaming": 26,
+                    "battery": 65,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -29275,10 +29275,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13420H \u279e Ultra 7 255H",
                 "gpuRange": "Intel UHD Xe G4",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 64
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 53,
+                    "display": 81
                 },
                 "configurations": [
                     {
@@ -29499,10 +29499,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 226V \u279e Ultra 7 256V",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 63
+                    "performance": 81,
+                    "gaming": 28,
+                    "battery": 71,
+                    "display": 89
                 },
                 "configurations": [
                     {
@@ -29608,10 +29608,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X Plus (X1P-42-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 65
+                    "performance": 65,
+                    "gaming": 17,
+                    "battery": 65,
+                    "display": 77
                 },
                 "configurations": [
                     {
@@ -29659,10 +29659,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X2 Plus (X2P-42-100)",
                 "gpuRange": "Adreno X2-45",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 64
+                    "performance": 61,
+                    "gaming": 21,
+                    "battery": 64,
+                    "display": 88
                 },
                 "configurations": [
                     {
@@ -29710,10 +29710,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X2 Plus (X2P-42-100)",
                 "gpuRange": "Adreno X2-45",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 65
+                    "performance": 61,
+                    "gaming": 21,
+                    "battery": 64,
+                    "display": 75
                 },
                 "configurations": [
                     {
@@ -29769,10 +29769,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1240P \u279e i7 1260P",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 60
+                    "performance": 85,
+                    "gaming": 26,
+                    "battery": 57,
+                    "display": 86
                 },
                 "configurations": [
                     {
@@ -29849,10 +29849,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125H \u279e Ultra 9 185H",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 65
+                    "performance": 92,
+                    "gaming": 32,
+                    "battery": 70,
+                    "display": 93
                 },
                 "configurations": [
                     {
@@ -29929,10 +29929,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1115G4 \u279e i7 1165G7",
                 "gpuRange": "Intel UHD Xe G4",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 65
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 50,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -30066,10 +30066,10 @@ const laptopSeriesData = [
                 "cpuRange": "R3 5300U \u279e R7 5800U",
                 "gpuRange": "Radeon RX Vega 6",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 68
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 57,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -30261,10 +30261,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1315U \u279e R7 7730U",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 62
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 57,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -30572,10 +30572,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 7 165H \u279e Ultra 9 185H",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 65
+                    "performance": 88,
+                    "gaming": 58,
+                    "battery": 78,
+                    "display": 75
                 },
                 "configurations": [
                     {
@@ -30681,9 +30681,9 @@ const laptopSeriesData = [
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
                     "performance": 81,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 66
+                    "gaming": 26,
+                    "battery": 57,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -30875,10 +30875,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13420H \u279e Ultra 7 255H",
                 "gpuRange": "Intel UHD Xe G4",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 60
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 57,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -31128,10 +31128,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 325 \u279e R7 250",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 62
+                    "performance": 81,
+                    "gaming": 18,
+                    "battery": 59,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -31439,10 +31439,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1115G4 \u279e i7 1355U",
                 "gpuRange": "Intel UHD Xe G4",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 66
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 68,
+                    "display": 76
                 },
                 "configurations": [
                     {
@@ -31663,10 +31663,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 226V \u279e Ultra 7 266V",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 63
+                    "performance": 81,
+                    "gaming": 32,
+                    "battery": 64,
+                    "display": 91
                 },
                 "configurations": [
                     {
@@ -31830,10 +31830,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1115G4 \u279e i7 1165G7",
                 "gpuRange": "MX450 2GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 67
+                    "performance": 81,
+                    "gaming": 35,
+                    "battery": 50,
+                    "display": 66
                 },
                 "configurations": [
                     {
@@ -31965,10 +31965,10 @@ const laptopSeriesData = [
                 "cpuRange": "R3 5300U \u279e R7 5800U",
                 "gpuRange": "Radeon RX Vega 6",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 69
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 57,
+                    "display": 67
                 },
                 "configurations": [
                     {
@@ -32158,10 +32158,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1215U \u279e i7 1260P",
                 "gpuRange": "MX550 2GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 61
+                    "performance": 81,
+                    "gaming": 35,
+                    "battery": 57,
+                    "display": 66
                 },
                 "configurations": [
                     {
@@ -32351,10 +32351,10 @@ const laptopSeriesData = [
                 "cpuRange": "i3 1315U \u279e R7 7730U",
                 "gpuRange": "Intel UHD",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 63
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 57,
+                    "display": 64
                 },
                 "configurations": [
                     {
@@ -32660,10 +32660,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125U \u279e R7 7735HS",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 67
+                    "performance": 81,
+                    "gaming": 26,
+                    "battery": 57,
+                    "display": 64
                 },
                 "configurations": [
                     {
@@ -32853,10 +32853,10 @@ const laptopSeriesData = [
                 "cpuRange": "Snapdragon X Plus (X1P-42-100)",
                 "gpuRange": "Adreno X1-45",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 68
+                    "performance": 61,
+                    "gaming": 17,
+                    "battery": 84,
+                    "display": 61
                 },
                 "configurations": [
                     {
@@ -32903,10 +32903,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13420H \u279e Ultra 7 255H",
                 "gpuRange": "Intel UHD Xe G4",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 61
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 57,
+                    "display": 64
                 },
                 "configurations": [
                     {
@@ -33125,10 +33125,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 325 \u279e R7 250",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 64
+                    "performance": 81,
+                    "gaming": 18,
+                    "battery": 59,
+                    "display": 64
                 },
                 "configurations": [
                     {
@@ -33434,10 +33434,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13500H \u279e i9 13900H",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 64
+                    "performance": 92,
+                    "gaming": 66,
+                    "battery": 74,
+                    "display": 50
                 },
                 "configurations": [
                     {
@@ -33540,10 +33540,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 14500HX \u279e i9 14900HX",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 69
+                    "performance": 92,
+                    "gaming": 66,
+                    "battery": 74,
+                    "display": 50
                 },
                 "configurations": [
                     {
@@ -33656,10 +33656,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5500U \u279e R7 5700U",
                 "gpuRange": "Radeon RX Vega 7",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 69
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 67,
+                    "display": 82
                 },
                 "configurations": [
                     {
@@ -33736,10 +33736,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7530U \u279e R7 7730U",
                 "gpuRange": "Radeon RX Vega 7",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 63
+                    "performance": 68,
+                    "gaming": 17,
+                    "battery": 67,
+                    "display": 82
                 },
                 "configurations": [
                     {
@@ -33816,10 +33816,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 6600U \u279e R7 6800U\u200b",
                 "gpuRange": "Radeon 660M",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 60
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 75,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -33896,10 +33896,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7535U \u279e R7 7735U",
                 "gpuRange": "Radeon 660M",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 64
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 75,
+                    "display": 77
                 },
                 "configurations": [
                     {
@@ -33976,10 +33976,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 8640HS \u279e R7 8840HS",
                 "gpuRange": "Radeon 760M",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 69
+                    "performance": 81,
+                    "gaming": 17,
+                    "battery": 68,
+                    "display": 77
                 },
                 "configurations": [
                     {
@@ -34056,10 +34056,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 5 340 \u279e RAI 7 350",
                 "gpuRange": "Radeon 840M",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 63
+                    "performance": 61,
+                    "gaming": 17,
+                    "battery": 67,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -34136,10 +34136,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 5 340 \u279e RAI 7 350",
                 "gpuRange": "Radeon 840M",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 64
+                    "performance": 61,
+                    "gaming": 17,
+                    "battery": 67,
+                    "display": 62
                 },
                 "configurations": [
                     {
@@ -34215,10 +34215,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 5 430 \u279e RAI 7 445",
                 "gpuRange": "Radeon 840M",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 69
+                    "performance": 61,
+                    "gaming": 17,
+                    "battery": 67,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -34324,10 +34324,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 5 430 \u279e RAI 7 445",
                 "gpuRange": "Radeon 840M",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 60
+                    "performance": 61,
+                    "gaming": 17,
+                    "battery": 67,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -34432,10 +34432,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1135G7 \u279e i7 1165G7",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 66
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 68,
+                    "display": 78
                 },
                 "configurations": [
                     {
@@ -34512,10 +34512,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1135G7 \u279e i7 1165G7",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 67
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 68,
+                    "display": 60
                 },
                 "configurations": [
                     {
@@ -34591,10 +34591,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1235U \u279e i7 1260P",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 61
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 75,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -34729,10 +34729,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1335U \u279e i7 1360P",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 65
+                    "performance": 81,
+                    "gaming": 26,
+                    "battery": 75,
+                    "display": 75
                 },
                 "configurations": [
                     {
@@ -34867,10 +34867,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1335U \u279e i7 1360P",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 66
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 75,
+                    "display": 56
                 },
                 "configurations": [
                     {
@@ -35004,10 +35004,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125U \u279e Ultra 7 155H",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 60
+                    "performance": 81,
+                    "gaming": 26,
+                    "battery": 75,
+                    "display": 77
                 },
                 "configurations": [
                     {
@@ -35142,10 +35142,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 125U \u279e Ultra 7 155U",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 61
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 75,
+                    "display": 56
                 },
                 "configurations": [
                     {
@@ -35221,10 +35221,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 226V \u279e Ultra 7 258V",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 65
+                    "performance": 81,
+                    "gaming": 28,
+                    "battery": 75,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -35360,9 +35360,9 @@ const laptopSeriesData = [
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
                     "performance": 81,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 66
+                    "gaming": 28,
+                    "battery": 75,
+                    "display": 62
                 },
                 "configurations": [
                     {
@@ -35467,10 +35467,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 322 \u279e Ultra 7 355",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 61
+                    "performance": 81,
+                    "gaming": 18,
+                    "battery": 67,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -35576,10 +35576,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 322 \u279e Ultra 7 355",
                 "gpuRange": "Intel Xe3",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 62
+                    "performance": 81,
+                    "gaming": 18,
+                    "battery": 67,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -35684,10 +35684,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1135G7 \u279e i7 1195G7",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 68
+                    "performance": 68,
+                    "gaming": 26,
+                    "battery": 60,
+                    "display": 80
                 },
                 "configurations": [
                     {
@@ -35851,10 +35851,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 1240P \u279e i7 1280P",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 62
+                    "performance": 72,
+                    "gaming": 26,
+                    "battery": 71,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -35960,10 +35960,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 1360P",
                 "gpuRange": "Intel Iris Xe G7",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 67
+                    "performance": 72,
+                    "gaming": 26,
+                    "battery": 71,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -36011,10 +36011,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 7 155H",
                 "gpuRange": "Intel Arc iGPU",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 62
+                    "performance": 85,
+                    "gaming": 32,
+                    "battery": 71,
+                    "display": 82
                 },
                 "configurations": [
                     {
@@ -36062,10 +36062,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 7 256V \u279e Ultra 7 258V",
                 "gpuRange": "Intel Arc 140V",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 67
+                    "performance": 85,
+                    "gaming": 32,
+                    "battery": 78,
+                    "display": 82
                 },
                 "configurations": [
                     {
@@ -36142,10 +36142,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7640U \u279e R7 7840U",
                 "gpuRange": "Radeon 760M",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 68
+                    "performance": 85,
+                    "gaming": 19,
+                    "battery": 75,
+                    "display": 79
                 },
                 "configurations": [
                     {
@@ -36221,10 +36221,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 5 226V \u279e RAI 7 350",
                 "gpuRange": "Intel Arc 130V",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 68
+                    "performance": 81,
+                    "gaming": 28,
+                    "battery": 75,
+                    "display": 85
                 },
                 "configurations": [
                     {
@@ -36436,10 +36436,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R7 5800H",
                 "gpuRange": "GTX 1650 4GB \u279e RTX 3060 6GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 68
+                    "performance": 72,
+                    "gaming": 64,
+                    "battery": 50,
+                    "display": 34
                 },
                 "configurations": [
                     {
@@ -36571,10 +36571,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 6600H \u279e R7 7735HS",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 4050 6GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 65
+                    "performance": 85,
+                    "gaming": 69,
+                    "battery": 50,
+                    "display": 47
                 },
                 "configurations": [
                     {
@@ -36765,10 +36765,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 11300H \u279e i7 11390H",
                 "gpuRange": "GTX 1650 4GB \u279e RTX 3050 Ti 4GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 69
+                    "performance": 72,
+                    "gaming": 53,
+                    "battery": 50,
+                    "display": 34
                 },
                 "configurations": [
                     {
@@ -36901,10 +36901,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12450H \u279e i7 12700H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3060 6GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 66
+                    "performance": 85,
+                    "gaming": 69,
+                    "battery": 50,
+                    "display": 48
                 },
                 "configurations": [
                     {
@@ -37075,10 +37075,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 8645HS \u279e R7 8845HS",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 60
+                    "performance": 85,
+                    "gaming": 71,
+                    "battery": 60,
+                    "display": 46
                 },
                 "configurations": [
                     {
@@ -37181,10 +37181,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 220 \u279e R7 250",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5060 Laptop 8GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 69
+                    "performance": 85,
+                    "gaming": 73,
+                    "battery": 60,
+                    "display": 45
                 },
                 "configurations": [
                     {
@@ -37259,10 +37259,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 250",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5060 Laptop 8GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 66
+                    "performance": 85,
+                    "gaming": 75,
+                    "battery": 60,
+                    "display": 55
                 },
                 "configurations": [
                     {
@@ -37336,10 +37336,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7235HS \u279e R7 7435HS",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 61
+                    "performance": 85,
+                    "gaming": 70,
+                    "battery": 60,
+                    "display": 46
                 },
                 "configurations": [
                     {
@@ -37471,10 +37471,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7535HS \u279e R7 170",
                 "gpuRange": "RTX 3050 Laptop 6GB \u279e RTX 4050 Laptop 6GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 60
+                    "performance": 72,
+                    "gaming": 68,
+                    "battery": 58,
+                    "display": 63
                 },
                 "configurations": [
                     {
@@ -37607,10 +37607,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12450H",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 62
+                    "performance": 78,
+                    "gaming": 71,
+                    "battery": 60,
+                    "display": 46
                 },
                 "configurations": [
                     {
@@ -37713,10 +37713,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 7 355 \u279e Ultra 7 356H",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5060 Laptop 8GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 67
+                    "performance": 85,
+                    "gaming": 75,
+                    "battery": 60,
+                    "display": 55
                 },
                 "configurations": [
                     {
@@ -37790,10 +37790,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12450H \u279e i7 13700H",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 63
+                    "performance": 85,
+                    "gaming": 66,
+                    "battery": 60,
+                    "display": 45
                 },
                 "configurations": [
                     {
@@ -37984,10 +37984,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12450H \u279e i7 14700HX",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 78,
+                    "performance": 85,
                     "gaming": 71,
-                    "display": 85,
-                    "battery": 63
+                    "battery": 60,
+                    "display": 46
                 },
                 "configurations": [
                     {
@@ -38148,10 +38148,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13450HX \u279e i7 14700HX",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5070 Laptop 8GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 61
+                    "performance": 85,
+                    "gaming": 81,
+                    "battery": 60,
+                    "display": 45
                 },
                 "configurations": [
                     {
@@ -38312,10 +38312,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13450HX \u279e i7 13650HX",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5060 Laptop 8GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 80,
-                    "display": 86,
-                    "battery": 62
+                    "performance": 85,
+                    "gaming": 68,
+                    "battery": 60,
+                    "display": 48
                 },
                 "configurations": [
                     {
@@ -38389,10 +38389,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7640HS \u279e R7 7840HS",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 64
+                    "performance": 85,
+                    "gaming": 71,
+                    "battery": 60,
+                    "display": 38
                 },
                 "configurations": [
                     {
@@ -38496,10 +38496,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13420H \u279e i7 13700H",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 65
+                    "performance": 85,
+                    "gaming": 71,
+                    "battery": 60,
+                    "display": 38
                 },
                 "configurations": [
                     {
@@ -38661,10 +38661,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13450HX \u279e i7 14700HX",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5070 Laptop 12GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 63
+                    "performance": 85,
+                    "gaming": 71,
+                    "battery": 60,
+                    "display": 25
                 },
                 "configurations": [
                     {
@@ -38834,10 +38834,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R7 5800H",
                 "gpuRange": "RTX 3050 4GB \u279e Radeon RX 6600M 8GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 68
+                    "performance": 85,
+                    "gaming": 66,
+                    "battery": 60,
+                    "display": 45
                 },
                 "configurations": [
                     {
@@ -38999,10 +38999,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R7 5800H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 69
+                    "performance": 72,
+                    "gaming": 66,
+                    "battery": 74,
+                    "display": 23
                 },
                 "configurations": [
                     {
@@ -39106,10 +39106,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 7735HS",
                 "gpuRange": "RTX 4060 8GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 60
+                    "performance": 85,
+                    "gaming": 77,
+                    "battery": 60,
+                    "display": 45
                 },
                 "configurations": [
                     {
@@ -39154,10 +39154,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 6600H \u279e R7 6800H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 Ti 8GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 65
+                    "performance": 85,
+                    "gaming": 66,
+                    "battery": 60,
+                    "display": 45
                 },
                 "configurations": [
                     {
@@ -39289,10 +39289,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 250 \u279e RAI 7 350",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5070 Laptop 8GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 65
+                    "performance": 85,
+                    "gaming": 84,
+                    "battery": 60,
+                    "display": 61
                 },
                 "configurations": [
                     {
@@ -39425,10 +39425,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R7 5800H",
                 "gpuRange": "RTX 3050 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 60
+                    "performance": 85,
+                    "gaming": 72,
+                    "battery": 74,
+                    "display": 42
                 },
                 "configurations": [
                     {
@@ -39561,10 +39561,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 6600H \u279e R9 6900HX",
                 "gpuRange": "RTX 3050 Ti 4GB \u279e RTX 3070 Ti 8GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 66
+                    "performance": 92,
+                    "gaming": 72,
+                    "battery": 74,
+                    "display": 41
                 },
                 "configurations": [
                     {
@@ -39726,10 +39726,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 250",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5060 Laptop 8GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 62
+                    "performance": 85,
+                    "gaming": 75,
+                    "battery": 74,
+                    "display": 61
                 },
                 "configurations": [
                     {
@@ -39803,10 +39803,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 11260H \u279e i7 11800H",
                 "gpuRange": "GTX 1650 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 77,
-                    "display": 87,
-                    "battery": 61
+                    "performance": 85,
+                    "gaming": 57,
+                    "battery": 60,
+                    "display": 45
                 },
                 "configurations": [
                     {
@@ -39997,10 +39997,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13450HX \u279e i9 14900HX",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 72,
-                    "display": 82,
-                    "battery": 60
+                    "performance": 92,
+                    "gaming": 86,
+                    "battery": 74,
+                    "display": 47
                 },
                 "configurations": [
                     {
@@ -40190,10 +40190,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 13650HX \u279e Ultra 9 275HX",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5070 Laptop 8GB",
                 "scores": {
-                    "performance": 81,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 66
+                    "performance": 92,
+                    "gaming": 84,
+                    "battery": 60,
+                    "display": 61
                 },
                 "configurations": [
                     {
@@ -40383,10 +40383,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 5800H \u279e R9 5900HX",
                 "gpuRange": "RTX 3060 6GB \u279e RTX 3080 16GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 78,
-                    "display": 80,
-                    "battery": 62
+                    "performance": 95,
+                    "gaming": 85,
+                    "battery": 74,
+                    "display": 41
                 },
                 "configurations": [
                     {
@@ -40490,10 +40490,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 6800H \u279e R9 6900HX",
                 "gpuRange": "Radeon RX 6700M 10GB \u279e Radeon RX 6850M XT 12GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 67
+                    "performance": 95,
+                    "gaming": 47,
+                    "battery": 88,
+                    "display": 41
                 },
                 "configurations": [
                     {
@@ -40568,10 +40568,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI Max+ 388 \u279e RAI Max+ 392",
                 "gpuRange": "Radeon 8060S",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 63
+                    "performance": 65,
+                    "gaming": 27,
+                    "battery": 77,
+                    "display": 71
                 },
                 "configurations": [
                     {
@@ -40647,10 +40647,10 @@ const laptopSeriesData = [
                 "cpuRange": "RAI 7 450 \u279e RAI 9 HX 470",
                 "gpuRange": "RTX 5060 Laptop 8GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 74,
-                    "display": 80,
-                    "battery": 64
+                    "performance": 65,
+                    "gaming": 79,
+                    "battery": 77,
+                    "display": 59
                 },
                 "configurations": [
                     {
@@ -40726,10 +40726,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 11800H \u279e i9 11980HK",
                 "gpuRange": "RTX 3060 6GB \u279e RTX 3080 16GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 63
+                    "performance": 95,
+                    "gaming": 85,
+                    "battery": 74,
+                    "display": 41
                 },
                 "configurations": [
                     {
@@ -40833,10 +40833,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 12800HX \u279e i9 12900HX",
                 "gpuRange": "RTX 3070 Ti 8GB \u279e RTX 3080 Ti 16GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 72,
-                    "display": 86,
-                    "battery": 68
+                    "performance": 95,
+                    "gaming": 86,
+                    "battery": 88,
+                    "display": 41
                 },
                 "configurations": [
                     {
@@ -40911,10 +40911,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 14700HX \u279e i9 14900HX",
                 "gpuRange": "RTX 3050 Laptop 8GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 73,
-                    "display": 83,
-                    "battery": 61
+                    "performance": 92,
+                    "gaming": 86,
+                    "battery": 88,
+                    "display": 48
                 },
                 "configurations": [
                     {
@@ -41017,10 +41017,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 7 255HX \u279e Ultra 9 290HX Plus",
                 "gpuRange": "RTX 5060 Laptop 8GB \u279e RTX 5070 Laptop 12GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 79,
-                    "display": 81,
-                    "battery": 67
+                    "performance": 92,
+                    "gaming": 84,
+                    "battery": 77,
+                    "display": 56
                 },
                 "configurations": [
                     {
@@ -41153,10 +41153,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 13980HX",
                 "gpuRange": "RTX 4080 12GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 75,
-                    "display": 81,
-                    "battery": 61
+                    "performance": 95,
+                    "gaming": 95,
+                    "battery": 88,
+                    "display": 39
                 },
                 "configurations": [
                     {
@@ -41231,10 +41231,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 14900HX",
                 "gpuRange": "RTX 4080 12GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 74,
-                    "display": 84,
-                    "battery": 62
+                    "performance": 95,
+                    "gaming": 95,
+                    "battery": 88,
+                    "display": 40
                 },
                 "configurations": [
                     {
@@ -41309,10 +41309,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 9 275HX \u279e Ultra 9 290HX Plus",
                 "gpuRange": "RTX 5080 Laptop 16GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 68
+                    "performance": 98,
+                    "gaming": 100,
+                    "battery": 88,
+                    "display": 20
                 },
                 "configurations": [
                     {
@@ -41387,10 +41387,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7645HX \u279e R9 7945HX",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 77,
-                    "gaming": 76,
-                    "display": 82,
-                    "battery": 62
+                    "performance": 92,
+                    "gaming": 81,
+                    "battery": 74,
+                    "display": 41
                 },
                 "configurations": [
                     {
@@ -41581,10 +41581,10 @@ const laptopSeriesData = [
                 "cpuRange": "R9 8940HX \u279e R9 9955HX",
                 "gpuRange": "RTX 5050 Laptop 8GB \u279e RTX 5070 Laptop 8GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 81,
-                    "display": 83,
-                    "battery": 69
+                    "performance": 92,
+                    "gaming": 84,
+                    "battery": 74,
+                    "display": 47
                 },
                 "configurations": [
                     {
@@ -41717,10 +41717,10 @@ const laptopSeriesData = [
                 "cpuRange": "R9 7945HX",
                 "gpuRange": "RTX 4080 12GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 77,
-                    "display": 83,
-                    "battery": 63
+                    "performance": 98,
+                    "gaming": 100,
+                    "battery": 74,
+                    "display": 32
                 },
                 "configurations": [
                     {
@@ -41794,10 +41794,10 @@ const laptopSeriesData = [
                 "cpuRange": "R9 9955HX \u279e R9 9955HX3D",
                 "gpuRange": "RTX 5070 Ti Laptop 12GB \u279e RTX 5080 Laptop 16GB",
                 "scores": {
-                    "performance": 75,
-                    "gaming": 70,
-                    "display": 84,
-                    "battery": 60
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 74,
+                    "display": 39
                 },
                 "configurations": [
                     {
@@ -41871,10 +41871,10 @@ const laptopSeriesData = [
                 "cpuRange": "i7 13700HX \u279e i9 13900HX",
                 "gpuRange": "RTX 4070 8GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 78,
-                    "display": 84,
-                    "battery": 64
+                    "performance": 98,
+                    "gaming": 100,
+                    "battery": 74,
+                    "display": 32
                 },
                 "configurations": [
                     {
@@ -41978,10 +41978,10 @@ const laptopSeriesData = [
                 "cpuRange": "i9 14900HX",
                 "gpuRange": "RTX 4080 12GB \u279e RTX 4090 16GB",
                 "scores": {
-                    "performance": 78,
-                    "gaming": 75,
-                    "display": 85,
-                    "battery": 63
+                    "performance": 98,
+                    "gaming": 100,
+                    "battery": 74,
+                    "display": 37
                 },
                 "configurations": [
                     {
@@ -42056,10 +42056,10 @@ const laptopSeriesData = [
                 "cpuRange": "Ultra 7 255HX \u279e Ultra 9 290HX Plus",
                 "gpuRange": "RTX 5070 Ti Laptop 12GB \u279e RTX 5090 Laptop 24GB",
                 "scores": {
-                    "performance": 76,
-                    "gaming": 71,
-                    "display": 85,
-                    "battery": 61
+                    "performance": 95,
+                    "gaming": 100,
+                    "battery": 74,
+                    "display": 39
                 },
                 "configurations": [
                     {
@@ -42191,10 +42191,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7640HS \u279e R9 7940HS",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 80,
-                    "gaming": 79,
-                    "display": 85,
-                    "battery": 65
+                    "performance": 92,
+                    "gaming": 70,
+                    "battery": 70,
+                    "display": 67
                 },
                 "configurations": [
                     {
@@ -42329,10 +42329,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 7640HS \u279e R7 7840HS",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 81,
+                    "performance": 85,
                     "gaming": 80,
-                    "display": 86,
-                    "battery": 66
+                    "battery": 60,
+                    "display": 47
                 },
                 "configurations": [
                     {
@@ -42465,10 +42465,10 @@ const laptopSeriesData = [
                 "cpuRange": "R7 7735HS \u279e R9 8945HS",
                 "gpuRange": "RTX 4050 Laptop 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 76,
-                    "display": 86,
-                    "battery": 64
+                    "performance": 92,
+                    "gaming": 82,
+                    "battery": 74,
+                    "display": 53
                 },
                 "configurations": [
                     {
@@ -42601,10 +42601,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12450H \u279e i7 13700H",
                 "gpuRange": "RTX 3050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 82,
-                    "gaming": 81,
-                    "display": 87,
-                    "battery": 67
+                    "performance": 85,
+                    "gaming": 80,
+                    "battery": 60,
+                    "display": 47
                 },
                 "configurations": [
                     {
@@ -42765,10 +42765,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 5600H \u279e R9 5900HX",
                 "gpuRange": "RTX 3050 Ti 4GB \u279e RTX 3060 6GB",
                 "scores": {
-                    "performance": 79,
-                    "gaming": 80,
-                    "display": 82,
-                    "battery": 64
+                    "performance": 92,
+                    "gaming": 72,
+                    "battery": 68,
+                    "display": 60
                 },
                 "configurations": [
                     {
@@ -42872,10 +42872,10 @@ const laptopSeriesData = [
                 "cpuRange": "R5 6600H \u279e R7 7840HS",
                 "gpuRange": "Radeon RX 6800S 8GB \u279e RTX 4060 8GB",
                 "scores": {
-                    "performance": 83,
-                    "gaming": 70,
-                    "display": 80,
-                    "battery": 68
+                    "performance": 92,
+                    "gaming": 73,
+                    "battery": 68,
+                    "display": 56
                 },
                 "configurations": [
                     {
@@ -43008,10 +43008,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 12500H \u279e i9 12900HK",
                 "gpuRange": "RTX 3050 Ti 4GB \u279e RTX 3070 8GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 73,
-                    "display": 87,
-                    "battery": 69
+                    "performance": 86,
+                    "gaming": 72,
+                    "battery": 68,
+                    "display": 51
                 },
                 "configurations": [
                     {
@@ -43173,10 +43173,10 @@ const laptopSeriesData = [
                 "cpuRange": "i5 13500H \u279e i9 13900H",
                 "gpuRange": "RTX 4050 6GB \u279e RTX 4070 8GB",
                 "scores": {
-                    "performance": 84,
-                    "gaming": 71,
-                    "display": 81,
-                    "battery": 69
+                    "performance": 92,
+                    "gaming": 84,
+                    "battery": 88,
+                    "display": 56
                 },
                 "configurations": [
                     {

@@ -11,3 +11,5 @@ Thumbs.db
 
 # Local build scripts
 scratch/
+
+laptop_rater_sample.py

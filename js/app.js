@@ -587,6 +587,76 @@ const app = {
                 };
             },
 
+            calculateLiveRatings(model, config, selectedCpu, selectedGpu) {
+                const parseNum = (val, def) => {
+                    if (!val) return def;
+                    const m = String(val).match(/(\d+(\.\d+)?)/);
+                    return m ? parseFloat(m[1]) : def;
+                };
+
+                const cpuTier = (name) => {
+                    const n = String(name).toUpperCase();
+                    if (n.includes('I9') || n.includes('RYZEN 9') || n.includes('ULTRA 9')) return 95;
+                    if (n.includes('I7') || n.includes('RYZEN 7') || n.includes('ULTRA 7')) return 80;
+                    if (n.includes('I5') || n.includes('RYZEN 5') || n.includes('ULTRA 5')) return 65;
+                    if (n.includes('I3') || n.includes('RYZEN 3')) return 45;
+                    return 35;
+                };
+
+                const gpuTier = (name) => {
+                    const n = String(name).toUpperCase();
+                    if (['5090', '4090', '5080', '4080'].some(x => n.includes(x))) return 100;
+                    if (['5070', '4070', '3080', '7900'].some(x => n.includes(x))) return 85;
+                    if (['5060', '4060', '3070', '5050', '4050', '3060'].some(x => n.includes(x))) return 70;
+                    if (['3050', '2050', '1650', 'MX'].some(x => n.includes(x))) return 50;
+                    if (['ARC', 'IRIS', '680M', '780M', '880M', '890M'].some(x => n.includes(x))) return 35;
+                    return 20;
+                };
+
+                const cpuStr = selectedCpu || config.cpu || '';
+                const gpuStr = selectedGpu || config.gpu || '';
+
+                const ramGb = parseNum(config.ramSize, 8);
+                const storageGb = parseNum(config.storageSize, 512);
+                const tgpW = parseNum(config.gpuTgp, 15);
+                const refreshHz = parseNum(config.refreshRate, 60);
+                const batteryWh = parseNum(config.batteryCapacity, 45);
+                const weightKg = parseNum(model.weight, 2.0);
+                const displayIn = parseNum(config.displaySize, 15.6);
+
+                // Performance
+                const cScore = cpuTier(cpuStr);
+                const rScore = Math.min(100, (ramGb / 32.0) * 100);
+                const sScore = Math.min(100, (storageGb / 1024.0) * 80 + 20);
+                const coolingScore = model.pros && model.pros.some(p => p.toLowerCase().includes('thermal')) ? 80 : 40;
+                const perfRating = Math.round(0.45 * cScore + 0.25 * rScore + 0.20 * sScore + 0.10 * coolingScore);
+
+                // Gaming
+                const gScore = gpuTier(gpuStr);
+                const tScore = Math.min(100, (tgpW / 140.0) * 100);
+                const refScore = Math.min(100, (refreshHz / 240.0) * 100);
+                const optScore = model.pros && model.pros.some(p => p.toLowerCase().includes('optimus')) ? 100 : 0;
+                const gamingRating = Math.round(0.60 * gScore + 0.15 * tScore + 0.15 * refScore + 0.10 * optScore);
+
+                // Battery
+                const capScore = Math.min(100, (batteryWh / 99.9) * 100);
+                const effScore = (/[UvV]\b|Snapdragon/i).test(cpuStr) ? 85 : 60;
+                const batteryRating = Math.round(0.70 * capScore + 0.30 * effScore);
+
+                // Portability / Display
+                const weightScore = Math.max(0, Math.min(100, 100 - ((weightKg - 0.8) / (3.0 - 0.8)) * 100));
+                const sizeScore = Math.max(0, Math.min(100, 100 - (displayIn - 13.0) * 15));
+                const pdScore = config.usbCharging && String(config.usbCharging).toUpperCase().includes('YES') ? 100 : 0;
+                const displayRating = Math.round(0.65 * weightScore + 0.20 * sizeScore + 0.15 * pdScore);
+
+                return {
+                    performance: perfRating,
+                    gaming: gamingRating,
+                    battery: batteryRating,
+                    display: displayRating
+                };
+            },
+
             selectCpu(cpu) {
                 this.state.selectedCpu = cpu;
                 this.state.isConfigSwitch = true;
@@ -655,8 +725,9 @@ const app = {
                 }
                 if (!config) config = model.specs || {};
 
-                // Calculate dynamic live prices
+                // Calculate dynamic live prices and spec ratings
                 const livePrices = this.calculateLivePrices(model, this.state.selectedCpu, this.state.selectedGpu);
+                const liveRatings = this.calculateLiveRatings(model, config, this.state.selectedCpu, this.state.selectedGpu);
 
                 // Determine animation based on whether we just switched configs
                 const animationClass = this.state.isConfigSwitch ? '' : 'animate-fade-up';
@@ -759,24 +830,22 @@ const app = {
                             <div class="w-full bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-8 mb-8 shadow-sm">
                                 <h3 class="text-sm font-bold uppercase tracking-wider text-slate-500 mb-6">Performance Metrics</h3>
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
-                                    ${model.scores ? `
-                                        <div>
-                                            <div class="flex justify-between mb-2"><span class="font-semibold text-slate-700 dark:text-slate-300">General Performance</span><span class="font-bold text-slate-900 dark:text-white">${model.scores.performance}</span></div>
-                                            <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full transition-all duration-1000" style="width: ${model.scores.performance}%"></div></div>
-                                        </div>
-                                        <div>
-                                            <div class="flex justify-between mb-2"><span class="font-semibold text-slate-700 dark:text-slate-300">Gaming</span><span class="font-bold text-slate-900 dark:text-white">${model.scores.gaming}</span></div>
-                                            <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-3"><div class="bg-purple-500 h-3 rounded-full transition-all duration-1000" style="width: ${model.scores.gaming}%"></div></div>
-                                        </div>
-                                        <div>
-                                            <div class="flex justify-between mb-2"><span class="font-semibold text-slate-700 dark:text-slate-300">Display Quality</span><span class="font-bold text-slate-900 dark:text-white">${model.scores.display}</span></div>
-                                            <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-3"><div class="bg-amber-500 h-3 rounded-full transition-all duration-1000" style="width: ${model.scores.display}%"></div></div>
-                                        </div>
-                                        <div>
-                                            <div class="flex justify-between mb-2"><span class="font-semibold text-slate-700 dark:text-slate-300">Battery Life</span><span class="font-bold text-slate-900 dark:text-white">${model.scores.battery}</span></div>
-                                            <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-3"><div class="bg-emerald-500 h-3 rounded-full transition-all duration-1000" style="width: ${model.scores.battery}%"></div></div>
-                                        </div>
-                                    ` : '<div class="text-sm text-slate-400 italic col-span-2">Graph data pending injection...</div>'}
+                                    <div>
+                                        <div class="flex justify-between mb-2"><span class="font-semibold text-slate-700 dark:text-slate-300">General Performance</span><span class="font-bold text-slate-900 dark:text-white">${liveRatings.performance}</span></div>
+                                        <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full transition-all duration-1000" style="width: ${liveRatings.performance}%"></div></div>
+                                    </div>
+                                    <div>
+                                        <div class="flex justify-between mb-2"><span class="font-semibold text-slate-700 dark:text-slate-300">Gaming</span><span class="font-bold text-slate-900 dark:text-white">${liveRatings.gaming}</span></div>
+                                        <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-3"><div class="bg-purple-500 h-3 rounded-full transition-all duration-1000" style="width: ${liveRatings.gaming}%"></div></div>
+                                    </div>
+                                    <div>
+                                        <div class="flex justify-between mb-2"><span class="font-semibold text-slate-700 dark:text-slate-300">Portability & Display</span><span class="font-bold text-slate-900 dark:text-white">${liveRatings.display}</span></div>
+                                        <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-3"><div class="bg-amber-500 h-3 rounded-full transition-all duration-1000" style="width: ${liveRatings.display}%"></div></div>
+                                    </div>
+                                    <div>
+                                        <div class="flex justify-between mb-2"><span class="font-semibold text-slate-700 dark:text-slate-300">Battery Life</span><span class="font-bold text-slate-900 dark:text-white">${liveRatings.battery}</span></div>
+                                        <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-3"><div class="bg-emerald-500 h-3 rounded-full transition-all duration-1000" style="width: ${liveRatings.battery}%"></div></div>
+                                    </div>
                                 </div>
                             </div>
 
