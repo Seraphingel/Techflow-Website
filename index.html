@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" class="transition-colors duration-1000 ease-in-out">
+<html lang="en" class="transition-colors duration-300">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechFlow | Premium Laptop Journal</title>
+    <title>TechFlow | Minimalist Laptop Hardware Journal & Valuation Matrix</title>
     
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome 6 Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <script>
@@ -14,29 +21,31 @@
             darkMode: 'class',
             theme: {
                 extend: {
-                    fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] },
+                    fontFamily: { 
+                        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace']
+                    },
                     colors: {
-                        organic: {
-                            50: '#f8fafc', 100: '#f1f5f9',
-                            800: '#1e293b', 900: '#0f172a', 950: '#020617',
+                        midnight: {
+                            900: '#0e172e',
+                            950: '#070d18',
                         },
-                        fluid: { light: '#e0e7ff', dark: '#312e81', accent: '#6366f1' }
-                    },
-                    animation: {
-                        'blob': 'blob 10s infinite',
-                        'fade-up': 'fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards',
-                    },
-                    keyframes: {
-                        blob: {
-                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
-                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
-                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
-                            '100%': { transform: 'translate(0px, 0px) scale(1)' },
-                        },
-                        fadeUp: {
-                            '0%': { opacity: 0, transform: 'translateY(20px)' },
-                            '100%': { opacity: 1, transform: 'translateY(0)' },
+                        azure: {
+                            50: '#f0f7ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e'
                         }
+                    },
+                    boxShadow: {
+                        'glow-sky': '0 0 35px -5px rgba(56, 189, 248, 0.25)',
+                        'glow-blue': '0 0 30px -5px rgba(2, 132, 199, 0.2)'
                     }
                 }
             }
@@ -45,138 +54,278 @@
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="bg-organic-50 text-slate-800 dark:bg-organic-950 dark:text-slate-100 min-h-screen flex flex-col antialiased">
+<body class="bg-[#f4f8fd] text-slate-800 dark:bg-[#070d18] dark:text-slate-100 min-h-screen flex flex-col antialiased selection:bg-sky-500 selection:text-white">
 
-    <!-- Ambient Background Blobs -->
-    <div class="fixed inset-0 z-[-1] overflow-hidden pointer-events-none transition-opacity duration-1000" id="ambient-bg">
-        <div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-fluid-light dark:bg-indigo-900/30 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-3xl opacity-70 animate-blob"></div>
-        <div class="absolute top-[20%] right-[-10%] w-96 h-96 bg-purple-200 dark:bg-purple-900/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-3xl opacity-70 animate-blob" style="animation-delay: 2s;"></div>
-        <div class="absolute bottom-[-20%] left-[20%] w-96 h-96 bg-pink-200 dark:bg-pink-900/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-3xl opacity-70 animate-blob" style="animation-delay: 4s;"></div>
-    </div>
+    <!-- Serene Ambient Backdrop -->
+    <div class="ambient-glow-bg"></div>
 
-    <!-- Header -->
-    <header class="sticky top-0 z-40 backdrop-blur-xl bg-white/80 dark:bg-organic-950/80 border-b border-slate-200 dark:border-slate-800 transition-colors duration-800">
-        <div class="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
-            <div class="flex items-center cursor-pointer group" onclick="app.navigate('home')">
-                <div class="w-7 h-7 mr-3 bg-fluid-accent rounded-lg flex items-center justify-center text-white transform group-hover:rotate-12 transition-transform duration-500">
-                    <i class="fa-solid fa-laptop-code text-xs"></i>
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-40 backdrop-blur-2xl bg-white/80 dark:bg-[#070d18]/80 border-b border-sky-100/80 dark:border-sky-950/60 transition-colors duration-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
+            
+            <!-- Brand Logo -->
+            <div class="flex items-center cursor-pointer group select-none" onclick="app.navigate('home')" role="button" aria-label="TechFlow Home">
+                <div class="w-9 h-9 mr-2.5 bg-gradient-to-tr from-sky-500 to-blue-600 rounded-2xl flex items-center justify-center text-white shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
+                    <i class="fa-solid fa-laptop-code text-sm"></i>
                 </div>
-                <span class="font-bold text-lg tracking-tight text-slate-900 dark:text-white">
-                    Tech<span class="text-fluid-accent font-light">Flow</span>
-                </span>
+                <div class="flex flex-col">
+                    <span class="font-bold text-xl tracking-tight text-slate-900 dark:text-white leading-none">
+                        Tech<span class="text-gradient-blue font-extrabold">Flow</span>
+                    </span>
+                    <span class="text-[9px] font-mono tracking-widest uppercase text-slate-400 dark:text-sky-400 mt-0.5 font-bold">
+                        Hardware & Valuation
+                    </span>
+                </div>
             </div>
 
-            <nav class="nav-island items-center bg-slate-100 dark:bg-slate-900/50 p-1 rounded-full border border-slate-200 dark:border-slate-700/50">
-                <button onclick="app.navigate('home')" id="nav-home" class="nav-btn px-4 py-1 rounded-full text-xs font-semibold transition-all">Home</button>
-                <button onclick="app.navigate('all')" id="nav-all" class="nav-btn px-4 py-1 rounded-full text-xs font-semibold transition-all">All Brands</button>
-                <button onclick="app.navigate('asus')" id="nav-asus" class="nav-btn px-4 py-1 rounded-full text-xs font-semibold transition-all">ASUS</button>
-                <button onclick="app.navigate('lenovo')" id="nav-lenovo" class="nav-btn px-4 py-1 rounded-full text-xs font-semibold transition-all">Lenovo</button>
-                <button onclick="app.navigate('msi')" id="nav-msi" class="nav-btn px-4 py-1 rounded-full text-xs font-semibold transition-all">MSI</button>
-                <button onclick="app.navigate('hp')" id="nav-hp" class="nav-btn px-4 py-1 rounded-full text-xs font-semibold transition-all">HP</button>
+            <!-- Desktop Navigation Island -->
+            <nav class="nav-island items-center glass-panel p-1 rounded-full shadow-sm" aria-label="Primary Navigation">
+                <button onclick="app.navigate('home')" id="nav-home" class="nav-btn px-4 py-1.5 rounded-full text-xs font-semibold">Home</button>
+                <button onclick="app.navigate('all')" id="nav-all" class="nav-btn px-4 py-1.5 rounded-full text-xs font-semibold">All Series</button>
+                <button onclick="app.navigate('asus')" id="nav-asus" class="nav-btn px-4 py-1.5 rounded-full text-xs font-semibold">ASUS</button>
+                <button onclick="app.navigate('lenovo')" id="nav-lenovo" class="nav-btn px-4 py-1.5 rounded-full text-xs font-semibold">Lenovo</button>
+                <button onclick="app.navigate('msi')" id="nav-msi" class="nav-btn px-4 py-1.5 rounded-full text-xs font-semibold">MSI</button>
+                <button onclick="app.navigate('hp')" id="nav-hp" class="nav-btn px-4 py-1.5 rounded-full text-xs font-semibold">HP</button>
             </nav>
 
-            <div class="flex items-center gap-3">
-                <button onclick="app.toggleSearch()" class="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 flex items-center justify-center hover:bg-slate-200 dark:hover:bg-slate-700 hover:scale-105 active:scale-95 transition-all shadow-sm">
-                    <i class="fa-solid fa-search text-xs"></i>
+            <!-- Actions (Creator Profile, Search, Theme, Hamburger) -->
+            <div class="flex items-center gap-2">
+                
+                <!-- Seraphingel Creator Badge -->
+                <button onclick="app.toggleCreatorModal()" 
+                        class="tactile-btn flex items-center gap-2 pl-1 pr-3.5 py-1 rounded-full bg-white/90 dark:bg-[#0e172e]/90 border border-sky-200/70 dark:border-sky-900/50 hover:border-sky-400 dark:hover:border-sky-500 shadow-sm"
+                        title="View Creator Profile (Seraphingel)" aria-label="View Creator Profile of Seraphingel">
+                    <img src="https://avatars.githubusercontent.com/u/224920784?v=4" 
+                         alt="Seraphingel" 
+                         class="w-6 h-6 rounded-full img-crisp-outline object-cover">
+                    <span class="text-xs font-bold text-slate-700 dark:text-slate-200">Seraphingel</span>
+                    <i class="fa-brands fa-github text-xs text-sky-500"></i>
                 </button>
-                <button id="hamburger-btn" onclick="app.toggleMobileMenu()" class="nav-hamburger w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 flex items-center justify-center hover:bg-slate-200 dark:hover:bg-slate-700 hover:scale-105 active:scale-95 transition-all shadow-sm">
+
+                <!-- Search Button -->
+                <button onclick="app.toggleSearch()" 
+                        class="tactile-btn h-9 px-3 rounded-full bg-white/90 dark:bg-[#0e172e]/90 text-slate-600 dark:text-slate-300 border border-sky-200/70 dark:border-sky-900/50 flex items-center gap-2 hover:bg-sky-50/80 dark:hover:bg-[#162244] text-xs font-medium"
+                        title="Search hardware (Ctrl+K)" aria-label="Open hardware search command palette">
+                    <i class="fa-solid fa-magnifying-glass text-xs text-sky-500"></i>
+                    <span class="hidden md:inline text-slate-500 dark:text-slate-400">Search</span>
+                    <kbd class="hidden md:inline-flex items-center px-1.5 py-0.5 text-[10px] font-mono font-bold text-slate-400 bg-sky-100/60 dark:bg-slate-800 rounded-full">Ctrl K</kbd>
+                </button>
+
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle-btn" onclick="app.toggleTheme()" 
+                        class="tactile-btn w-9 h-9 rounded-full bg-white/90 dark:bg-[#0e172e]/90 text-slate-600 dark:text-slate-300 border border-sky-200/70 dark:border-sky-900/50 flex items-center justify-center hover:bg-sky-50/80 dark:hover:bg-[#162244]"
+                        title="Toggle dark/light theme" aria-label="Toggle dark and light color theme">
+                    <i id="theme-toggle-icon" class="fa-solid fa-moon text-xs"></i>
+                </button>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="hamburger-btn" onclick="app.toggleMobileMenu()" 
+                        class="nav-hamburger tactile-btn w-9 h-9 rounded-full bg-white/90 dark:bg-[#0e172e]/90 text-slate-600 dark:text-slate-300 border border-sky-200/70 dark:border-sky-900/50 flex items-center justify-center hover:bg-sky-50/80 dark:hover:bg-[#162244]"
+                        title="Toggle navigation menu" aria-label="Toggle navigation menu" aria-expanded="false">
                     <i id="hamburger-icon" class="fa-solid fa-bars text-xs"></i>
                 </button>
             </div>
         </div>
     </header>
 
-    <!-- Mobile Navigation Dropdown -->
-    <div id="mobile-menu" class="fixed top-14 left-0 right-0 z-30 bg-white/90 dark:bg-organic-950/90 backdrop-blur-xl border-b border-slate-200 dark:border-slate-800 shadow-xl transition-all duration-300 opacity-0 -translate-y-2 pointer-events-none">
-        <div class="px-6 py-4 flex flex-col gap-2">
-            <button id="mobile-nav-home" onclick="app.navigate('home')" class="mobile-nav-btn text-left px-4 py-3 rounded-xl font-bold text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">Home</button>
-            <button id="mobile-nav-all" onclick="app.navigate('all')" class="mobile-nav-btn text-left px-4 py-3 rounded-xl font-bold text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">All Brands</button>
-            <button id="mobile-nav-asus" onclick="app.navigate('asus')" class="mobile-nav-btn text-left px-4 py-3 rounded-xl font-bold text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">ASUS</button>
-            <button id="mobile-nav-lenovo" onclick="app.navigate('lenovo')" class="mobile-nav-btn text-left px-4 py-3 rounded-xl font-bold text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">Lenovo</button>
-            <button id="mobile-nav-msi" onclick="app.navigate('msi')" class="mobile-nav-btn text-left px-4 py-3 rounded-xl font-bold text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">MSI</button>
-            <button id="mobile-nav-hp" onclick="app.navigate('hp')" class="mobile-nav-btn text-left px-4 py-3 rounded-xl font-bold text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">HP</button>
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="fixed top-16 left-0 right-0 z-30 bg-white/95 dark:bg-[#070d18]/95 backdrop-blur-2xl border-b border-sky-100 dark:border-sky-950/60 shadow-xl transition-all duration-200 opacity-0 -translate-y-2 pointer-events-none" role="navigation" aria-label="Mobile Menu">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-1.5">
+            <button id="mobile-nav-home" onclick="app.navigate('home')" class="mobile-nav-btn text-left px-4 py-2.5 rounded-2xl font-semibold text-sm text-slate-700 dark:text-slate-300 hover:bg-sky-50 dark:hover:bg-[#0e172e] transition-colors flex items-center justify-between">
+                <span>Home</span>
+                <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+            </button>
+            <button id="mobile-nav-all" onclick="app.navigate('all')" class="mobile-nav-btn text-left px-4 py-2.5 rounded-2xl font-semibold text-sm text-slate-700 dark:text-slate-300 hover:bg-sky-50 dark:hover:bg-[#0e172e] transition-colors flex items-center justify-between">
+                <span>All Series</span>
+                <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+            </button>
+            <div class="h-px bg-sky-100 dark:bg-sky-950/60 my-1"></div>
+            <div class="px-4 py-1 text-[11px] font-mono uppercase tracking-wider text-sky-500 font-bold">Manufacturers</div>
+            <button id="mobile-nav-asus" onclick="app.navigate('asus')" class="mobile-nav-btn text-left px-4 py-2.5 rounded-2xl font-semibold text-sm text-slate-700 dark:text-slate-300 hover:bg-sky-50 dark:hover:bg-[#0e172e] transition-colors flex items-center justify-between">
+                <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-sky-500"></span> ASUS</span>
+                <span class="text-xs font-mono text-slate-400">ROG / Zenbook / TUF</span>
+            </button>
+            <button id="mobile-nav-lenovo" onclick="app.navigate('lenovo')" class="mobile-nav-btn text-left px-4 py-2.5 rounded-2xl font-semibold text-sm text-slate-700 dark:text-slate-300 hover:bg-sky-50 dark:hover:bg-[#0e172e] transition-colors flex items-center justify-between">
+                <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-sky-500"></span> Lenovo</span>
+                <span class="text-xs font-mono text-slate-400">Legion / ThinkPad / LOQ</span>
+            </button>
+            <button id="mobile-nav-msi" onclick="app.navigate('msi')" class="mobile-nav-btn text-left px-4 py-2.5 rounded-2xl font-semibold text-sm text-slate-700 dark:text-slate-300 hover:bg-sky-50 dark:hover:bg-[#0e172e] transition-colors flex items-center justify-between">
+                <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-sky-500"></span> MSI</span>
+                <span class="text-xs font-mono text-slate-400">Titan / Raider / Stealth</span>
+            </button>
+            <button id="mobile-nav-hp" onclick="app.navigate('hp')" class="mobile-nav-btn text-left px-4 py-2.5 rounded-2xl font-semibold text-sm text-slate-700 dark:text-slate-300 hover:bg-sky-50 dark:hover:bg-[#0e172e] transition-colors flex items-center justify-between">
+                <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-sky-500"></span> HP</span>
+                <span class="text-xs font-mono text-slate-400">OMEN / Victus / EliteBook</span>
+            </button>
         </div>
     </div>
 
-    <!-- Search Overlay -->
-    <div id="search-overlay" class="fixed inset-0 z-[70] bg-white/95 dark:bg-organic-950/95 backdrop-blur-xl transition-all duration-500 opacity-0 pointer-events-none flex flex-col pt-32 px-6 items-center">
-        <button onclick="app.toggleSearch()" class="absolute top-6 right-6 md:top-8 md:right-8 w-12 h-12 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-500 hover:text-slate-900 dark:hover:text-white transition-all shadow-sm hover:scale-105">
-            <i class="fa-solid fa-xmark text-xl"></i>
-        </button>
-        <div class="w-full max-w-3xl transform transition-transform duration-500 translate-y-8" id="search-container">
-            <div class="relative w-full">
-                <i class="fa-solid fa-search absolute left-6 top-1/2 -translate-y-1/2 text-2xl text-slate-400"></i>
-                <input type="text" id="globalSearchOverlay" placeholder="Search series..." 
-                       class="w-full py-5 pl-16 pr-6 bg-slate-100 dark:bg-slate-900 rounded-[2rem] border-2 border-slate-200 dark:border-slate-800 focus:border-fluid-accent outline-none text-xl font-semibold text-slate-800 dark:text-slate-200 placeholder-slate-400 shadow-2xl transition-all">
-            </div>
-            <p class="text-center mt-6 text-sm text-slate-500 font-medium">Press <kbd class="px-2 py-1 bg-slate-200 dark:bg-slate-800 rounded-md mx-1">Enter</kbd> to search</p>
-        </div>
-    </div>
-
-    <!-- MODEL PICKER BUBBLE (MODAL) -->
-    <div id="model-picker-modal" class="fixed inset-0 z-[60] bg-slate-900/40 dark:bg-slate-950/60 backdrop-blur-sm opacity-0 pointer-events-none transition-all duration-300 flex items-center justify-center p-4">
-        <div class="modal-bubble bg-white dark:bg-slate-900 rounded-[2.5rem] w-full max-w-2xl shadow-2xl border border-slate-200 dark:border-slate-800 transform scale-95 transition-all duration-300 flex flex-col max-h-[85vh] overflow-hidden">
+    <!-- CREATOR PROFILE SPOTLIGHT MODAL -->
+    <div id="creator-modal" class="modal-backdrop fixed inset-0 z-[80] bg-slate-950/60 backdrop-blur-md opacity-0 pointer-events-none transition-all duration-200 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="creator-modal-title">
+        <div class="modal-dialog glass-panel rounded-3xl w-full max-w-md shadow-2xl border border-sky-400/30 transform scale-95 opacity-0 transition-all duration-200 overflow-hidden relative">
             
-            <!-- FIXED HEADER BLOCK (NEVER SHRINKS OR CLIPS) -->
-            <div class="flex-shrink-0 p-5 md:p-6 border-b border-slate-100 dark:border-slate-800 relative overflow-hidden bg-white dark:bg-slate-900 z-10">
-                <div class="absolute top-0 right-0 w-32 h-32 bg-fluid-accent/10 dark:bg-fluid-accent/20 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
-                
-                <div class="flex items-center justify-between gap-4 mb-2 relative z-10">
+            <!-- Serene Blue Header -->
+            <div class="h-24 bg-gradient-to-r from-sky-600 via-blue-600 to-sky-700 relative p-4 flex items-start justify-end">
+                <button onclick="app.toggleCreatorModal()" class="w-8 h-8 rounded-full bg-black/20 text-white hover:bg-black/40 flex items-center justify-center transition-colors" aria-label="Close creator profile modal">
+                    <i class="fa-solid fa-xmark text-sm"></i>
+                </button>
+            </div>
+
+            <!-- Profile Info Body -->
+            <div class="px-6 pb-6 pt-0 relative flex flex-col items-center text-center">
+                <!-- Avatar -->
+                <div class="w-20 h-20 rounded-full border-4 border-white dark:border-[#0e172e] shadow-lg overflow-hidden -mt-10 mb-3 bg-slate-800 img-crisp-outline">
+                    <img src="https://avatars.githubusercontent.com/u/224920784?v=4" alt="Seraphingel avatar" class="w-full h-full object-cover">
+                </div>
+
+                <h3 id="creator-modal-title" class="text-xl font-bold text-slate-900 dark:text-white">Seraphingel</h3>
+                <span class="text-xs font-mono font-semibold text-sky-600 dark:text-sky-400 mb-3">@Seraphingel &bull; Creator & Curator</span>
+
+                <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed mb-5">
+                    Architect and maintainer of <strong>TechFlow</strong>. Engineering clarity for modern laptop silicon architectures, benchmark capabilities, and Philippine secondary market valuations.
+                </p>
+
+                <!-- Project Tech Stack Badges -->
+                <div class="flex flex-wrap items-center justify-center gap-1.5 mb-6 text-[10px] font-mono font-bold">
+                    <span class="px-2.5 py-1 rounded-full bg-sky-50 dark:bg-sky-950/50 text-sky-700 dark:text-sky-300 border border-sky-200/60 dark:border-sky-900/50">Vanilla JS</span>
+                    <span class="px-2.5 py-1 rounded-full bg-sky-50 dark:bg-sky-950/50 text-sky-700 dark:text-sky-300 border border-sky-200/60 dark:border-sky-900/50">Tailwind CSS</span>
+                    <span class="px-2.5 py-1 rounded-full bg-sky-50 dark:bg-sky-950/50 text-sky-700 dark:text-sky-300 border border-sky-200/60 dark:border-sky-900/50">Playwright Telemetry</span>
+                    <span class="px-2.5 py-1 rounded-full bg-sky-50 dark:bg-sky-950/50 text-sky-700 dark:text-sky-300 border border-sky-200/60 dark:border-sky-900/50">SRP & Resale Engine</span>
+                </div>
+
+                <!-- GitHub Action Link -->
+                <a href="https://github.com/Seraphingel" target="_blank" rel="noopener noreferrer" 
+                   class="tactile-btn w-full py-2.5 px-4 rounded-full bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 text-white font-bold text-xs shadow-md shadow-sky-500/20 flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-github text-sm"></i>
+                    <span>Follow @Seraphingel on GitHub</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- COMMAND PALETTE SPOTLIGHT SEARCH MODAL -->
+    <div id="search-overlay" class="modal-backdrop fixed inset-0 z-[70] bg-slate-950/60 backdrop-blur-md opacity-0 pointer-events-none transition-all duration-200 flex items-start justify-center pt-16 sm:pt-24 px-4" role="dialog" aria-modal="true" aria-label="Command Palette Hardware Search">
+        <div class="modal-dialog glass-panel rounded-3xl w-full max-w-2xl shadow-2xl border border-sky-500/25 transform scale-95 opacity-0 transition-all duration-200 overflow-hidden flex flex-col max-h-[80vh]">
+            
+            <!-- Search Bar Header -->
+            <div class="p-4 border-b border-sky-100 dark:border-sky-950/80 flex items-center gap-3 bg-white/50 dark:bg-[#070d18]/50">
+                <i class="fa-solid fa-magnifying-glass text-sky-500 text-base ml-2"></i>
+                <input type="text" id="globalSearchOverlay" 
+                       placeholder="Search series, models, CPU, GPU (e.g. Zephyrus, ThinkPad, 4080)..." 
+                       class="w-full bg-transparent text-slate-900 dark:text-white placeholder-slate-400 text-sm sm:text-base font-medium outline-none"
+                       autocomplete="off" spellcheck="false"
+                       aria-label="Search hardware specifications">
+                <button onclick="app.toggleSearch()" class="tactile-btn p-1.5 rounded-full text-slate-400 hover:text-slate-600 dark:hover:text-slate-200" aria-label="Close search dialog">
+                    <kbd class="text-[10px] font-mono px-2 py-1 bg-sky-100/70 dark:bg-slate-800 rounded-full">ESC</kbd>
+                </button>
+            </div>
+
+            <!-- Live Search Results -->
+            <div id="search-results-list" class="p-2 sm:p-3 overflow-y-auto flex-grow flex flex-col gap-1.5 min-h-[140px]" role="listbox">
+                <!-- Injected dynamically via JS -->
+            </div>
+
+            <!-- Command Palette Footer -->
+            <div class="px-4 py-2.5 bg-white/40 dark:bg-[#070d18]/60 border-t border-sky-100 dark:border-sky-950/80 flex items-center justify-between text-[11px] text-slate-400 font-medium">
+                <div class="flex items-center gap-3">
+                    <span><kbd class="px-1.5 py-0.5 bg-sky-100 dark:bg-slate-800 rounded-full font-mono">↑</kbd> <kbd class="px-1.5 py-0.5 bg-sky-100 dark:bg-slate-800 rounded-full font-mono">↓</kbd> Navigate</span>
+                    <span><kbd class="px-1.5 py-0.5 bg-sky-100 dark:bg-slate-800 rounded-full font-mono">Enter</kbd> Select</span>
+                </div>
+                <span class="font-mono text-sky-500 font-bold">Live Index &bull; 339 Models</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODEL PICKER MODAL -->
+    <div id="model-picker-modal" class="modal-backdrop fixed inset-0 z-[60] bg-slate-950/60 backdrop-blur-md opacity-0 pointer-events-none transition-all duration-200 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="modal-series-title">
+        <div class="modal-dialog glass-panel rounded-3xl w-full max-w-2xl shadow-2xl border border-sky-500/25 transform scale-95 opacity-0 transition-all duration-200 flex flex-col max-h-[85vh] overflow-hidden">
+            
+            <!-- Modal Header Block -->
+            <div class="flex-shrink-0 p-5 sm:p-6 border-b border-sky-100 dark:border-sky-950/80 relative z-10 bg-white/40 dark:bg-[#070d18]/40">
+                <div class="flex items-start justify-between gap-4 mb-3">
                     <div>
-                        <span id="modal-brand-tag" class="text-xs font-bold uppercase tracking-wider text-fluid-accent block">Brand</span>
-                        <h3 id="modal-series-title" class="text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">Series Name</h3>
+                        <div class="flex items-center gap-2 mb-1">
+                            <span id="modal-brand-tag" class="text-[10px] font-mono uppercase tracking-widest text-sky-600 dark:text-sky-400 font-bold px-2 py-0.5 rounded-full bg-sky-50 dark:bg-sky-950/50 border border-sky-200 dark:border-sky-900/50">Brand</span>
+                            <span id="modal-category-tag" class="text-[10px] font-mono uppercase tracking-widest text-slate-400 font-semibold">Category</span>
+                        </div>
+                        <h3 id="modal-series-title" class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">Series Name</h3>
                     </div>
-                    <button onclick="app.closeModelPicker()" class="flex-shrink-0 w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500 hover:text-slate-900 dark:hover:text-white flex items-center justify-center transition-colors">
-                        <i class="fa-solid fa-xmark text-base"></i>
+                    <button onclick="app.closeModelPicker()" class="tactile-btn flex-shrink-0 w-8 h-8 rounded-full bg-sky-50 dark:bg-[#0e172e] text-slate-400 hover:text-slate-900 dark:hover:text-white flex items-center justify-center transition-colors" aria-label="Close model picker modal">
+                        <i class="fa-solid fa-xmark text-sm"></i>
                     </button>
                 </div>
                 
-                <div id="modal-discontinued-notice" class="hidden mb-3 text-xs font-semibold px-3.5 py-2 rounded-xl bg-amber-500/10 text-amber-700 dark:text-amber-300 border border-amber-500/20 flex items-center gap-2 relative z-10">
-                    <i class="fa-solid fa-triangle-exclamation text-amber-500 flex-shrink-0"></i>
+                <!-- Discontinued Notice if Applicable -->
+                <div id="modal-discontinued-notice" class="hidden mb-3 text-xs font-medium px-3.5 py-2.5 rounded-2xl bg-sky-50 dark:bg-sky-950/40 text-sky-800 dark:text-sky-300 border border-sky-200/80 dark:border-sky-900/50 flex items-center gap-2.5">
+                    <i class="fa-solid fa-circle-info text-sky-500 flex-shrink-0"></i>
                     <span id="modal-discontinued-text"></span>
                 </div>
                 
-                <!-- INTEGRATED SORT CONTROL BAR -->
-                <div class="flex flex-wrap items-center justify-between gap-2 pt-3 border-t border-slate-100 dark:border-slate-800/60 relative z-10">
-                    <span class="text-xs font-extrabold uppercase tracking-wider text-slate-400 flex items-center">
-                        <i class="fa-solid fa-arrow-down-short-wide text-fluid-accent mr-1.5"></i> Sort Models
+                <!-- Sort Controls Bar -->
+                <div class="flex flex-wrap items-center justify-between gap-2 pt-3 border-t border-sky-100 dark:border-sky-950/60 text-xs">
+                    <span class="text-[11px] font-mono uppercase tracking-wider text-slate-400 flex items-center">
+                        <i class="fa-solid fa-arrow-down-short-wide text-sky-500 mr-1.5"></i> Sort Models
                     </span>
-                    <div class="flex items-center bg-slate-100 dark:bg-slate-800/80 p-1 rounded-xl border border-slate-200/80 dark:border-slate-700/60 text-xs font-bold">
-                        <button id="sort-btn-alpha" onclick="app.setModelSort('alpha')" class="px-2.5 py-1 rounded-lg transition-all flex items-center gap-1">
-                            <i class="fa-solid fa-arrow-down-a-z"></i>
-                            <span>Alphabetical (A - Z)</span>
+                    <div class="flex items-center bg-sky-50 dark:bg-[#0e172e] p-0.5 rounded-full border border-sky-100 dark:border-sky-900/50">
+                        <button id="sort-btn-alpha" onclick="app.setModelSort('alpha')" class="px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                            <i class="fa-solid fa-arrow-down-a-z text-[11px]"></i>
+                            <span>Alphabetical</span>
                         </button>
-                        <button id="sort-btn-year" onclick="app.setModelSort('year')" class="px-2.5 py-1 rounded-lg transition-all flex items-center gap-1">
-                            <i class="fa-solid fa-calendar-days"></i>
-                            <span>Year Released</span>
+                        <button id="sort-btn-year" onclick="app.setModelSort('year')" class="px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                            <i class="fa-solid fa-calendar-days text-[11px]"></i>
+                            <span>Release Year</span>
                         </button>
                     </div>
                 </div>
             </div>
             
-            <div id="modal-models-list" class="p-4 md:p-6 overflow-y-auto flex-grow flex flex-col gap-3 min-h-0 bg-slate-50/50 dark:bg-slate-900/50">
-                <!-- Models get injected here via JS -->
+            <!-- Models List Container -->
+            <div id="modal-models-list" class="p-4 sm:p-5 overflow-y-auto flex-grow flex flex-col gap-2.5 min-h-0 bg-slate-50/40 dark:bg-[#070d18]/40">
+                <!-- Injected via JS -->
             </div>
         </div>
     </div>
 
+    <!-- Main Content Area -->
     <main class="flex-grow flex flex-col w-full relative z-10">
         <div id="app-container" class="w-full flex-grow flex flex-col">
-            <!-- Content will be injected here by JS -->
+            <!-- Rendered by js/app.js -->
         </div>
     </main>
 
-    <footer class="border-t border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-organic-950/50 backdrop-blur-md transition-colors duration-800 py-6 mt-12">
-        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between text-sm">
-            <div class="flex items-center mb-4 md:mb-0 text-slate-500 dark:text-slate-400">
-                <span class="font-bold mr-2 text-slate-800 dark:text-slate-200">TechFlow</span> &copy; 2026
+    <!-- Minimalist Monochrome Footer with Seraphingel Attribution -->
+    <footer class="border-t border-sky-100/80 dark:border-sky-950/60 bg-white/80 dark:bg-[#070d18]/80 backdrop-blur-xl py-10 mt-20 transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+            
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-2xl bg-gradient-to-tr from-sky-500 to-blue-600 flex items-center justify-center text-white shadow-sm">
+                    <i class="fa-solid fa-laptop text-xs"></i>
+                </div>
+                <div>
+                    <span class="font-bold text-sm text-slate-900 dark:text-white">TechFlow</span>
+                    <p class="text-xs text-slate-400">Architectural Specifications & Secondary Valuation Index</p>
+                </div>
+            </div>
+
+            <!-- Creator Credit Pill -->
+            <a href="https://github.com/Seraphingel" target="_blank" rel="noopener noreferrer" 
+               class="tactile-btn flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white dark:bg-[#0e172e] border border-sky-200/80 dark:border-sky-900/60 hover:border-sky-400 transition-colors shadow-sm"
+               title="View Seraphingel GitHub Profile">
+                <img src="https://avatars.githubusercontent.com/u/224920784?v=4" alt="Seraphingel" class="w-5 h-5 rounded-full object-cover img-crisp-outline">
+                <span class="text-xs font-semibold text-slate-700 dark:text-slate-300">Created by <span class="text-sky-600 dark:text-sky-400 font-bold">@Seraphingel</span></span>
+                <i class="fa-brands fa-github text-xs text-slate-400"></i>
+            </a>
+
+            <div class="text-slate-400 dark:text-slate-500 font-mono text-[11px]">
+                <span>Data powered by Nanoreview &bull; &copy; 2026 TechFlow</span>
             </div>
         </div>
     </footer>
 
-
-    <!-- External Data & App Logic Scripts -->
+    <!-- Scripts -->
     <script src="data/laptopData.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
+
