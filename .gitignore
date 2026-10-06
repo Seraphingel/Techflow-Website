@@ -1,15 +1,56 @@
-# Python cache
-__pycache__/
-*.pyc
+# ==========================================
+# TechFlow - Production .gitignore
+# Excludes development tools, scrapers,
+# agent artifacts, and editor/system caches.
+# ==========================================
 
-# Local system files
-.DS_Store
-Thumbs.db
-
-# Agent metadata
+# AI Agent & Workspace Metadata
 .agents/
+skills-lock.json
+.gemini/
+.cursor/
 
-# Local build scripts
+# Development Scripts, Scratchpads & Scrapers
 scratch/
+*.py
+*.ipynb
+*.log
+*.tmp
+*.bak
 
-laptop_rater_sample.py
+# Raw / Source Spreadsheets & Data Dumps
+*.xlsx
+*.xls
+*.csv
+
+# Python Environments & Bytecode Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+
+# Node / Package Manager Artifacts (if used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & IDE Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
